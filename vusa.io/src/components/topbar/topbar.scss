@@ -9,6 +9,8 @@
   top: 0;
   z-index: 3; //bring topbar to top of component visibility stack
   transition: all 1s ease;
+  overflow: hidden;
+
 
   .wrapper{
     padding: 10px 30px;
