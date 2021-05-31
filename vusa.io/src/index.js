@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Topbar from './components/topbar/Topbar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Topbar/>
   </React.StrictMode>,
   document.getElementById('root')
 );
