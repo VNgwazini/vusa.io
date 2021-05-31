@@ -1,0 +1,24 @@
+.intro{
+  background-color: black;
+  font-weight: 700;
+  height: 100vh;
+}
+
+.intro-decription{
+  color: white;
+  white-space: nowrap;
+}
+
+.intro_positions{
+  color: green;
+}
+
+.intro_arrow{
+  animation: arrowBlink 2s infinite;
+
+  @keyframes arrowBlink {
+    100%{
+      opacity: 0;
+    }
+  }
+}

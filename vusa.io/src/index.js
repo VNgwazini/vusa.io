@@ -7,10 +7,12 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Topbar from './components/topbar/Topbar';
+import Intro from './components/intro/Intro';
 
 ReactDOM.render(
   <React.StrictMode>
     <Topbar/>
+    <Intro/>
   </React.StrictMode>,
   document.getElementById('root')
 );
