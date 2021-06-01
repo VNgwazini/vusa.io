@@ -19,10 +19,8 @@ export default function Topbar() {
       <Nav.Link href="https://twitter.com/VNgwazini">Twitter</Nav.Link>
       <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
         <NavDropdown.Item href="https://play.google.com/store/apps/details?id=com.vusa.mymemory">Android Game</NavDropdown.Item>
-        <NavDropdown.Item href="#healthcare">Healthcare App</NavDropdown.Item>
-        <NavDropdown.Item href="#rental">Rental Property App</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item href="https://github.com/VNgwazini/Healthcare-App">Healthcare App</NavDropdown.Item>
+        <NavDropdown.Item href="https://github.com/VNgwazini/Rental-Property-App">Rental Property App</NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>
