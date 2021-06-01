@@ -24,12 +24,18 @@ export default function Intro() {
   }, [])
 
   return (
-    <Container className="intro" fluid>
-      <Row>
-        <Col className="d-flex justify-content-center align-content-stretch">
-          <Image src="assets/headshot.png"/>
+    <Container className="intro d-flex justify-content-center" id="intro" fluid>
+      <Row className="flex-grow-1">
+        <Col>
+          <img
+          src="assets/headshot.png"
+          alt="Headshot"
+          style={{
+            height: "100%",
+          }}
+          />
         </Col>
-        <Col className="intro-decription d-flex flex-column justify-content-center align-items-center px-4" fluid>
+        <Col className="intro-decription d-flex flex-column justify-content-center align-items-center" fluid>
           <Row>
             <h3>Hi, I'm Vusumuzi Ngwazini</h3>
           </Row>
@@ -41,7 +47,7 @@ export default function Intro() {
           <Row>
             <Col>
               <h1 className="intro_arrow">
-                <a href="#index">
+                <a href="#portfolio">
                   <ExpandMoreIcon style={{fontSize: "10vw", color: "green", lineHeight: "0.1em"}}/>
                 </a>
               </h1>

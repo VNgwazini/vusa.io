@@ -1,24 +1,44 @@
 .intro{
   background-color: black;
   font-weight: 700;
-  height: 100vh;
-}
+  width: 100%;
+  height: 100%;
+  top: auto;
 
-.intro-decription{
-  color: white;
-  white-space: nowrap;
-}
-
-.intro_positions{
-  color: green;
-}
-
-.intro_arrow{
-  animation: arrowBlink 2s infinite;
-
-  @keyframes arrowBlink {
-    100%{
-      opacity: 0;
+  .intro-decription{
+    color: white;
+    white-space: nowrap;
+    background-color: black;
+  }
+  
+  .intro_positions{
+    color: green;
+  }
+  
+  .intro_arrow{
+    animation: arrowBlink 2s infinite;
+  
+    @keyframes arrowBlink {
+      100%{
+        opacity: 0;
+      }
     }
   }
+  /* Extra Small devices (landscape phones, 544px and up) */
+@media (min-width: 320px) {  
+  h3 {font-size:1.5rem;} /*1rem = 16px*/
+  h4 {font-size:1.25rem;} /*1rem = 16px*/
+  img {
+    width: 90vw;
+  }
+}
+  /* Small devices (landscape phones, 544px and up) */
+@media (min-width: 540px) {  
+  h3 {font-size:1.75rem;} /*1rem = 16px*/
+  h4 {font-size:1.5rem;} /*1rem = 16px*/
+  img {
+    width: inherit;
+  }  
+}
+ 
 }

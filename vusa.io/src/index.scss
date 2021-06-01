@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sections{
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow: hidden;
+
+  
+  scrollbar-width: none; //for firefox
+  &::-webkit-scrollbar{
+    display: none; //for chrome
+  }
+
+  > *{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+  }
+}
