@@ -15,9 +15,6 @@ code {
 .sections{
   height: 100vh;
   position: relative;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  overflow: hidden;
 
   
   scrollbar-width: none; //for firefox
@@ -29,5 +26,14 @@ code {
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
+  }
+}
+
+*{
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  
+  &::-webkit-scrollbar{
+    display: none; //for chrome
   }
 }
