@@ -15,7 +15,6 @@ ReactDOM.render(
     <Topbar/>
     <div className="sections">
       <Intro/>
-      <Portfolio/>
     </div>
   </React.StrictMode>,
   document.getElementById('root')

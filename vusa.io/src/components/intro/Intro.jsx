@@ -44,15 +44,6 @@ export default function Intro() {
               Freelance <span className="intro_positions" ref={textRef}></span>
             </h4>
           </Row>
-          <Row>
-            <Col>
-              <h1 className="intro_arrow">
-                <a href="#portfolio">
-                  <ExpandMoreIcon style={{fontSize: "10vw", color: "green", lineHeight: "0.1em"}}/>
-                </a>
-              </h1>
-            </Col>
-          </Row>
         </Col>
       </Row>
     </Container>
