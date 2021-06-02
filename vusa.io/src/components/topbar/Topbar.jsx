@@ -17,10 +17,6 @@ export default function Topbar() {
       <Home className="icon"/>
       &nbsp; Home
     </Nav.Link>
-    <Nav.Link href="#portfolio">
-      <ViewCarousel className="icon"/>
-      &nbsp; Preview
-    </Nav.Link>
     <Nav.Link href="https://www.linkedin.com/in/vusumuzi-ngwazini/">
       <LinkedIn className="icon"/>
       &nbsp; LinkedIn
