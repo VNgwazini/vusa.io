@@ -3,12 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
-import Portfolio from './components/portfolio/Portfolio';
 
 ReactDOM.render(
   <React.StrictMode>

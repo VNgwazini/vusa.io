@@ -4,7 +4,7 @@ import {
   Navbar, 
   NavDropdown 
 } from 'react-bootstrap/'
-import {Home, Mail, LinkedIn, GitHub, Twitter, ViewCarousel, Android, Healing, AccountBalance} from "@material-ui/icons"
+import {Home, Mail, LinkedIn, GitHub, Twitter, Android, Healing, AccountBalance} from "@material-ui/icons"
 
 export default function Topbar() {
   return (

@@ -1,13 +1,11 @@
 
 import "./intro.scss"
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
 import { 
   Col,
   Container,
-  Row,
-  Image
+  Row
 } from 'react-bootstrap/'
 
 export default function Intro() {
