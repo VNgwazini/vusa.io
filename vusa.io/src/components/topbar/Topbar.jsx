@@ -38,7 +38,7 @@ export default function Topbar() {
           <Android className="icon"/>
           &nbsp; Android Game
         </NavDropdown.Item>
-        <NavDropdown.Item href="https://github.com/VNgwazini/Healthcare-App">
+        <NavDropdown.Item href="https://demo-healthcare-app.vusa.io/">
           <Healing className="icon"/>
           &nbsp; Healthcare App
         </NavDropdown.Item>
