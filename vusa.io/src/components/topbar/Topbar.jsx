@@ -42,7 +42,7 @@ export default function Topbar() {
           <Healing className="icon"/>
           &nbsp; Healthcare App
         </NavDropdown.Item>
-        <NavDropdown.Item href="https://github.com/VNgwazini/Rental-Property-App">
+        <NavDropdown.Item href="https://demo-rental-property-app.vusa.io/">
           <AccountBalance className="icon"/>
           &nbsp; Rental Property App
         </NavDropdown.Item>
