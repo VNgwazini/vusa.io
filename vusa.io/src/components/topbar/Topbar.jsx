@@ -17,32 +17,32 @@ export default function Topbar() {
       <Home className="icon"/>
       &nbsp; Home
     </Nav.Link>
-    <Nav.Link href="https://www.linkedin.com/in/vusumuzi-ngwazini/">
+    <Nav.Link href="https://www.linkedin.com/in/vusumuzi-ngwazini/" target="_blank">
       <LinkedIn className="icon"/>
       &nbsp; LinkedIn
     </Nav.Link>
-      <Nav.Link href="https://github.com/VNgwazini">
+      <Nav.Link href="https://github.com/VNgwazini" target="_blank">
         <GitHub className="icon"/>
         &nbsp; GitHub
       </Nav.Link>
-      <Nav.Link href="https://twitter.com/VNgwazini">
+      <Nav.Link href="https://twitter.com/VNgwazini" target="_blank">
         <Twitter className="icon"/>
         &nbsp; Twitter
       </Nav.Link>
-      <Nav.Link href="mailto:vusumuzi.ngwazini@gmail.com">
+      <Nav.Link href="mailto:vusumuzi.ngwazini@gmail.com" target="_blank">
         <Mail className="icon"/>
         &nbsp; Email
       </Nav.Link>
       <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="https://play.google.com/store/apps/details?id=com.vusa.mymemory">
+        <NavDropdown.Item href="https://play.google.com/store/apps/details?id=com.vusa.mymemory" target="_blank">
           <Android className="icon"/>
           &nbsp; Android Game
         </NavDropdown.Item>
-        <NavDropdown.Item href="https://demo-healthcare-app.vusa.io/">
+        <NavDropdown.Item href="https://demo-healthcare-app.vusa.io/" target="_blank">
           <Healing className="icon"/>
           &nbsp; Healthcare App
         </NavDropdown.Item>
-        <NavDropdown.Item href="https://demo-rental-property-app.vusa.io/">
+        <NavDropdown.Item href="https://demo-rental-property-app.vusa.io/" target="_blank">
           <AccountBalance className="icon"/>
           &nbsp; Rental Property App
         </NavDropdown.Item>
