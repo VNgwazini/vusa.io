@@ -9,9 +9,9 @@ import {Mail, LinkedIn, GitHub, Twitter} from "@material-ui/icons"
 
 export default function Projects() {
   return (
-    <Container className="projects pt-4" id="content" fluid="true">
+    <Container className="projects pt-4 content-container" id="projects" fluid="true">
       <Row>
-         <Col className="d-flex justify-content-center py-4">
+         <Col className="d-flex justify-content-center py-4 content">
           <h5 className="px-4 text-left">Software Engineering Portfolio</h5>
         </Col>
       </Row>

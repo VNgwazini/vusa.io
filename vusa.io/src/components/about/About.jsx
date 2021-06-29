@@ -9,7 +9,7 @@ import {Mail, LinkedIn, GitHub, Twitter} from "@material-ui/icons"
 
 export default function About() {
   return (
-    <Container className="about" id="content" fluid="true">
+    <Container className="about content-container" id="about" fluid="true">
       <Row className="h-50">
         <Col className="d-flex justify-content-center align-items-center">
           <span>

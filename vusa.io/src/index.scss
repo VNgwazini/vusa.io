@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-#content{
+.content-container{
   height: calc(100vh - 20px);
   width: 100%;
   padding: 20px 0;
@@ -20,12 +20,12 @@ code {
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-#content::-webkit-scrollbar {
+.content-container::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-#content {
+.content-container {
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
 }
