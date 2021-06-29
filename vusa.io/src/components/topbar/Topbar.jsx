@@ -8,7 +8,7 @@ import {Home, Mail, LinkedIn, GitHub, Twitter, Android, Healing, AccountBalance}
 
 export default function Topbar() {
   return (
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+<Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
   <Navbar.Brand href="#intro">Vusumuzi Ngwazini</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

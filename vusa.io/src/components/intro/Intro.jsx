@@ -23,8 +23,8 @@ export default function Intro() {
 
   return (
     <Container className="intro d-flex justify-content-center" id="intro" fluid>
-      <Row className="flex-grow-1">
-        <Col>
+      <Row>
+        <Col className="intro-face">
           <img
           src="assets/headshot.png"
           alt="Headshot"
@@ -33,6 +33,8 @@ export default function Intro() {
           }}
           />
         </Col>
+      </Row>
+      <Row className="">
         <Col className="intro-decription d-flex flex-column justify-content-center align-items-center" fluid>
           <Row>
             <h3>Hi, I'm Vusumuzi Ngwazini</h3>
