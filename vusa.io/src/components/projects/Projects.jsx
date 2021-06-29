@@ -53,7 +53,7 @@ export default function Projects() {
             <Card.Title>Rental Property App</Card.Title>
             <Card.Body>
               <Card.Text>
-                A preference based app for finding rental properties.
+                A react app for finding rental properties based on your preferences.
               </Card.Text>
             </Card.Body>
             <Card.Footer className="text-muted">2020 · Web App Development</Card.Footer>
