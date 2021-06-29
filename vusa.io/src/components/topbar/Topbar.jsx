@@ -4,19 +4,23 @@ import {
   Navbar, 
   NavDropdown 
 } from 'react-bootstrap/'
-import {Home, Mail, LinkedIn, GitHub, Twitter, Android, Healing, AccountBalance} from "@material-ui/icons"
+import {Home, Apps, Mail, LinkedIn, GitHub, Twitter, Android, Healing, AccountBalance} from "@material-ui/icons"
 
 export default function Topbar() {
   return (
 <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="navbar">
-  <Navbar.Brand href="#intro">Vusumuzi Ngwazini</Navbar.Brand>
+  <Navbar.Brand href="#about">Vusumuzi Ngwazini</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-    <Nav.Link href="#intro">
+    <Nav.Link href="#about">
       <Home className="icon"/>
       &nbsp; Home
     </Nav.Link>
+    <Nav.Link href="#projects">
+        <Apps className="icon"/>
+        &nbsp; Projects
+      </Nav.Link>
     <Nav.Link href="https://www.linkedin.com/in/vusumuzi-ngwazini/" target="_blank">
       <LinkedIn className="icon"/>
       &nbsp; LinkedIn
