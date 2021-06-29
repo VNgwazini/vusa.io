@@ -16,7 +16,7 @@ export default function Projects() {
         </Col>
       </Row>
       <Row className="d-flex justify-content-center text-center">
-      <Col className="d-flex justify-content-center py-4">
+      <Col className="d-flex justify-content-center py-4" sm="4">
         <a 
           href="https://play.google.com/store/apps/details?id=com.vusa.mymemory"
           target="_blank" rel="noreferrer"
@@ -38,12 +38,12 @@ export default function Projects() {
           </Card>
         </a>
         </Col>
-        <Col className="d-flex justify-content-center py-4">
+        <Col className="d-flex justify-content-center py-4" sm="4">
         <a 
           href="https://demo-rental-property-app.vusa.io/"
           target="_blank" rel="noreferrer"
         >
-        <Card className="shadow card-size mx-4 my-4">
+        <Card className="shadow card-size mx-4 my-4" sm="4">
             <Card.Img 
               src="assets/RentBarkerPreview.png"
               alt="Rental"

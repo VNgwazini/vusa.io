@@ -1,15 +1,12 @@
 .projects{
-  background: white;
-  color: inherit;
-
   .img-thumbnail {
     width: 100%;
-    height: 15vw;
+    height: 20vh;
     object-fit: cover;
   }
 
   .card-size{
     width: '20rem';
-    height: '30rem';
+    height: '20vh';
   }
 }
