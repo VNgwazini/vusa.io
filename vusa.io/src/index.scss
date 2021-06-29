@@ -12,28 +12,8 @@ code {
     monospace;
 }
 
-.sections{
-  height: 100vh;
-  position: relative;
-
-  
-  scrollbar-width: none; //for firefox
-  &::-webkit-scrollbar{
-    display: none; //for chrome
-  }
-
-  > *{
-    width: 100vw;
-    height: calc(100vh - 70px);
-    scroll-snap-align: start;
-  }
-}
-
-*{
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  
-  &::-webkit-scrollbar{
-    display: none; //for chrome
-  }
+#content{
+  height: calc(100vh - 100px);
+  width: 100%;
+  padding: 20px 0;
 }

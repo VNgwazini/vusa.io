@@ -5,14 +5,15 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Topbar from './components/topbar/Topbar';
-import Intro from './components/intro/Intro';
+import About from './components/about/About';
+import Footer from './components/footer/Footer';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Topbar/>
-    <div className="sections">
-      <Intro/>
-    </div>
+    <Topbar />
+    <About />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
