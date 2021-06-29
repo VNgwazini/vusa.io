@@ -27,9 +27,7 @@ code {
   overflow-y: scroll; /* Add the ability to scroll */
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  scroll-snap-type: y mandatory;
   scroll-snap-align: start;
-
 }
 
 #navbar{
