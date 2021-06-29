@@ -9,7 +9,7 @@ export default function Footer() {
         <a target="_blank" href="https://twitter.com/VNgwazini"><Twitter className="mx-1"/></a>
         <a target="_blank" href="https://www.linkedin.com/in/vusumuzi-ngwazini/"><LinkedIn className="mx-1"/></a>
         <a target="_blank" href="mailto:vusumuzi.ngwazini@gmail.com"><Mail className="mx-1"/></a>
-        <a target="_blank" href="https://github.com/VNgwazini"><GitHub className="mx-1"/></a>
+        <a target="_blank" href="https://github.com/VNgwazini"><GitHub className="ml-1 mr-4"/></a>
       </span>
     </div>
   )
