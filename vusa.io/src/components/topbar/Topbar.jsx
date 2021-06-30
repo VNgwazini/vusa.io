@@ -4,7 +4,7 @@ import {
   Navbar, 
   NavDropdown 
 } from 'react-bootstrap/'
-import {Home, Apps, Mail, LinkedIn, GitHub, Twitter, Android, Healing, AccountBalance} from "@material-ui/icons"
+import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter, Android, Healing, AccountBalance} from "@material-ui/icons"
 
 export default function Topbar() {
   return (
@@ -20,7 +20,11 @@ export default function Topbar() {
     <Nav.Link href="#projects">
         <Apps className="icon"/>
         &nbsp; Projects
-      </Nav.Link>
+    </Nav.Link>
+    <Nav.Link href="#experience">
+      <Work className="icon"/>
+      &nbsp; Experience
+    </Nav.Link>
     <Nav.Link href="https://www.linkedin.com/in/vusumuzi-ngwazini/" target="_blank">
       <LinkedIn className="icon"/>
       &nbsp; LinkedIn
