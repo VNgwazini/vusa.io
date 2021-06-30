@@ -12,28 +12,21 @@ code {
     monospace;
 }
 
-.sections{
-  height: 100vh;
-  position: relative;
-
-  
-  scrollbar-width: none; //for firefox
-  &::-webkit-scrollbar{
-    display: none; //for chrome
-  }
-
-  > *{
-    width: 100vw;
-    height: calc(100vh - 70px);
-    scroll-snap-align: start;
-  }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.content-container::-webkit-scrollbar {
+  display: none;
 }
 
-*{
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  
-  &::-webkit-scrollbar{
-    display: none; //for chrome
-  }
+/* Hide scrollbar for IE, Edge and Firefox */
+.content-container {
+  width: 100%;
+  padding: 100px 0;
+  overflow-y: scroll; /* Add the ability to scroll */
+  overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#navbar{
+  width: 100vw;
 }

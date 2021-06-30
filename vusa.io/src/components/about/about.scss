@@ -1,0 +1,20 @@
+.about{
+  background: white;
+  color: black;
+  height: calc(100vh - 20px);
+
+  img {
+    max-height: inherit;
+    border-radius: 10px;
+    margin-top: 0
+  }
+
+  .typing{
+    color: green;
+  }
+
+  .card-size{
+    background: white;
+    border: transparent;
+  }
+}

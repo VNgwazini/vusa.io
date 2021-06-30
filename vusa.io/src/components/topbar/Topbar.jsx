@@ -2,20 +2,27 @@ import "./topbar.scss";
 import { 
   Nav, 
   Navbar, 
-  NavDropdown 
 } from 'react-bootstrap/'
-import {Home, Mail, LinkedIn, GitHub, Twitter, Android, Healing, AccountBalance} from "@material-ui/icons"
+import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter } from "@material-ui/icons"
 
 export default function Topbar() {
   return (
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-  <Navbar.Brand href="#intro">Vusumuzi Ngwazini</Navbar.Brand>
+<Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="navbar">
+  <Navbar.Brand href="/">Vusumuzi Ngwazini</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-    <Nav.Link href="#intro">
+    <Nav.Link href="/">
       <Home className="icon"/>
       &nbsp; Home
+    </Nav.Link>
+    <Nav.Link href="/projects">
+        <Apps className="icon"/>
+        &nbsp; Projects
+    </Nav.Link>
+    <Nav.Link href="/experience">
+      <Work className="icon"/>
+      &nbsp; Experience
     </Nav.Link>
     <Nav.Link href="https://www.linkedin.com/in/vusumuzi-ngwazini/" target="_blank">
       <LinkedIn className="icon"/>
@@ -33,7 +40,7 @@ export default function Topbar() {
         <Mail className="icon"/>
         &nbsp; Email
       </Nav.Link>
-      <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
+      {/* <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
         <NavDropdown.Item href="https://play.google.com/store/apps/details?id=com.vusa.mymemory" target="_blank">
           <Android className="icon"/>
           &nbsp; Android Game
@@ -46,7 +53,7 @@ export default function Topbar() {
           <AccountBalance className="icon"/>
           &nbsp; Rental Property App
         </NavDropdown.Item>
-      </NavDropdown>
+      </NavDropdown> */}
     </Nav>
   </Navbar.Collapse>
 </Navbar>
