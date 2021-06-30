@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Projects from './components/projects/Projects';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 
 ReactDOM.render(

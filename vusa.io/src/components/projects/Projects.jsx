@@ -14,7 +14,7 @@ import {
 } from "../../data";
 
 export default function Projects() {
-
+// eslint-disable-next-line
   const [data, setData] = useState(projectData);
 
   return (

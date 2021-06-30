@@ -6,17 +6,14 @@ import {
   Container,
   Row,
   Col,
-  Card,
 } from 'react-bootstrap/'
 import ExperienceListItem from "../experienceListItem/ExperienceListItem";
 import {
   experienceData
 } from "../../data";
 
-import { green } from '@material-ui/core/colors';
-
 export default function Experience() {
-
+// eslint-disable-next-line
   const [data, setData] = useState(experienceData);
 
   return (

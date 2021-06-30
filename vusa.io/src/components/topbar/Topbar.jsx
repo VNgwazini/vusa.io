@@ -2,9 +2,8 @@ import "./topbar.scss";
 import { 
   Nav, 
   Navbar, 
-  NavDropdown 
 } from 'react-bootstrap/'
-import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter, Android, Healing, AccountBalance} from "@material-ui/icons"
+import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter } from "@material-ui/icons"
 
 export default function Topbar() {
   return (

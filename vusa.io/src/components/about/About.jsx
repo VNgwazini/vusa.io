@@ -9,7 +9,6 @@ import {
   Container,
   Card
 } from 'react-bootstrap/'
-import {Mail, LinkedIn, GitHub, Twitter} from "@material-ui/icons"
 
 export default function About() {
 
