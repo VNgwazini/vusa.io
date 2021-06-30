@@ -41,7 +41,7 @@ export default function Topbar() {
         <Mail className="icon"/>
         &nbsp; Email
       </Nav.Link>
-      <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
+      {/* <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
         <NavDropdown.Item href="https://play.google.com/store/apps/details?id=com.vusa.mymemory" target="_blank">
           <Android className="icon"/>
           &nbsp; Android Game
@@ -54,7 +54,7 @@ export default function Topbar() {
           <AccountBalance className="icon"/>
           &nbsp; Rental Property App
         </NavDropdown.Item>
-      </NavDropdown>
+      </NavDropdown> */}
     </Nav>
   </Navbar.Collapse>
 </Navbar>
