@@ -1,6 +1,8 @@
 .about{
   background: white;
   color: navy;
+  height: calc(100vh - 20px);
+
   img {
     max-height: inherit;
     border-radius: 10px;
