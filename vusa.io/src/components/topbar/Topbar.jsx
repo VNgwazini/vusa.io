@@ -9,19 +9,19 @@ import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter, Android, Healing, Acc
 export default function Topbar() {
   return (
 <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="navbar">
-  <Navbar.Brand href="#about">Vusumuzi Ngwazini</Navbar.Brand>
+  <Navbar.Brand href="/">Vusumuzi Ngwazini</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-    <Nav.Link href="#about">
+    <Nav.Link href="/">
       <Home className="icon"/>
       &nbsp; Home
     </Nav.Link>
-    <Nav.Link href="#projects">
+    <Nav.Link href="/projects">
         <Apps className="icon"/>
         &nbsp; Projects
     </Nav.Link>
-    <Nav.Link href="#experience">
+    <Nav.Link href="/experience">
       <Work className="icon"/>
       &nbsp; Experience
     </Nav.Link>

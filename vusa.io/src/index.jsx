@@ -3,20 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Topbar from './components/topbar/Topbar';
 import Projects from './components/projects/Projects';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
-import Footer from './components/footer/Footer';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Topbar />
-    <About />
-    <Projects/>
-    <Experience />
-    <Footer />
-  </React.StrictMode>,
+    <BrowserRouter>
+      <Route exact path="/" component={About}/>
+      <Route exact path="/projects" component={Projects}/>
+      <Route exact path="/experience" component={Experience}/>
+    </BrowserRouter>,
   document.getElementById('root')
 );
