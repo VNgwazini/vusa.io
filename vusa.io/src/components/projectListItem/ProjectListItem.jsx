@@ -7,8 +7,7 @@ import {
 
 export default function ProjectListItem({item}) {
   return (
-      <Row>
-        <Col className="d-flex justify-content-center text-center projectListItem">
+        <Col className="d-flex justify-content-center text-center projectListItem my-4" lg={4}>
           <a 
             href={item.link}
             target="_blank" rel="noreferrer"
@@ -30,6 +29,5 @@ export default function ProjectListItem({item}) {
             </Card>
           </a>
         </Col>
-      </Row>
   )
 }
