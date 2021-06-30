@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Topbar from './components/topbar/Topbar';
 import Projects from './components/projects/Projects';
 import About from './components/about/About';
+import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
 
 
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Topbar />
     <About />
     <Projects/>
+    <Experience />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
