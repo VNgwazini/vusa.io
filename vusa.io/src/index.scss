@@ -19,7 +19,7 @@ code {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .content-container {
-  height: calc(100vh - 20px);
+  height: calc(100vh - 40px);
   width: 100%;
   background: white;
   color: black;
@@ -27,7 +27,6 @@ code {
   overflow-y: scroll; /* Add the ability to scroll */
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  scroll-snap-align: start;
 }
 
 #navbar{
