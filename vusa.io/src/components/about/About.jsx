@@ -1,6 +1,8 @@
 import "./about.scss";
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
+import Topbar from '../../components/topbar/Topbar';
+import Footer from '../../components/footer/Footer';
 import { 
   Row,
   Col,
@@ -23,6 +25,8 @@ export default function About() {
   }, [])
 
   return (
+    <>
+    <Topbar/>
     <Container className="about content-container" id="about" fluid="true">
       <Row className="h-50">
         <Col className="d-flex justify-content-center align-items-center">
@@ -52,5 +56,7 @@ export default function About() {
         </Col>
       </Row>
     </Container>
+    <Footer/>
+    </>
   )
 }

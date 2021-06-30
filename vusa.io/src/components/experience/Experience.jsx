@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Topbar from '../../components/topbar/Topbar';
+import Footer from '../../components/footer/Footer';
 import "./experience.scss";
 import { 
   Container,
@@ -18,6 +20,8 @@ export default function Experience() {
   const [data, setData] = useState(experienceData);
 
   return (
+    <>
+    <Topbar/>
     <Container className="experience content-container px-4" id="experience" fluid="true">
       <Row>
         <Col className="d-flex justify-content-center content">
@@ -28,6 +32,8 @@ export default function Experience() {
           <ExperienceListItem experience={experience}/>
         ))}
     </Container>
+    <Footer/>
+    </>
   )
 
 }
