@@ -37,7 +37,7 @@ export default function About() {
       </Row>
       <Row className="h-50">
         <Col className="d-flex justify-content-center align-items-center">
-          <Card style={{  border: "transparent" }}>
+          <Card className="card-size">
             <Card.Title className="text-center pt-2">Vusumuzi Ngwazini</Card.Title>
             <Card.Subtitle className="text-center text-muted">
               Freelance <span className="typing" ref={textRef}></span>

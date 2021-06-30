@@ -1,5 +1,6 @@
 .about{
-
+  background: white;
+  color: navy;
   img {
     max-height: inherit;
     border-radius: 10px;
@@ -8,5 +9,10 @@
 
   .typing{
     color: green;
+  }
+
+  .card-size{
+    background: white;
+    border: transparent;
   }
 }
