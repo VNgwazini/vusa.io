@@ -8,7 +8,7 @@ import {
 export default function ExperienceListItem({experience}) {
   return (
     <Row>
-      <Col className="d-flex justify-content-center py-4 experienceListItem">
+      <Col className="d-flex justify-content-center py-4 mb-4 experienceListItem">
         <Card className="shadow card-size">
           <Card.Header>
             {experience.category}
