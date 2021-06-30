@@ -18,7 +18,12 @@ export default function Experience() {
   const [data, setData] = useState(experienceData);
 
   return (
-    <Container className="experience content-container py-4 px-4" id="experience" fluid="true">
+    <Container className="experience content-container px-4" id="experience" fluid="true">
+      <Row>
+        <Col className="d-flex justify-content-center content">
+          <h5>Work Experience</h5>
+        </Col>
+      </Row>
         {data.map((experience) => (
           <ExperienceListItem experience={experience}/>
         ))}

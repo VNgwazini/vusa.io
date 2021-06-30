@@ -18,8 +18,8 @@ export default function Projects() {
   return (
     <Container className="projects content-container" id="projects" fluid="true">
        <Row>
-         <Col className="d-flex justify-content-center py-4 content">
-          <h5 className="px-4 pt-4 text-left">Software Engineering Portfolio</h5>
+         <Col className="d-flex justify-content-center content">
+          <h5>Software Engineering Portfolio</h5>
         </Col>
       </Row>
         {data.map((item) => (
