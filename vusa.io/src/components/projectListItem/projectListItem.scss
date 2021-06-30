@@ -1,6 +1,6 @@
-.projects{
-  background: white;
-  color: navy;
+.projectListItem{
+  background: inherit;
+  color: inherit;
   .img-thumbnail {
     width: 100%;
     height: 20vh;
@@ -8,7 +8,6 @@
   }
 
   .card-size{
-    width: '20rem';
-    height: '20vh';
+    width: 100%;
   }
 }

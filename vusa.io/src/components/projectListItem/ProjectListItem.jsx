@@ -1,10 +1,13 @@
+import "./projectListItem.scss";
 import { 
   Col,
   Card,
+  Row,
 } from 'react-bootstrap/'
 
 export default function ProjectListItem({item}) {
   return (
+    <Row className="d-flex justify-content-center text-center projectListItem">
     <Col className="d-flex justify-content-center py-4" sm="4">
     <a 
       href={item.link}
@@ -27,5 +30,6 @@ export default function ProjectListItem({item}) {
       </Card>
     </a>
     </Col>
+    </Row>
   )
 }
