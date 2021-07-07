@@ -14,7 +14,7 @@ export const projectData = [
     link: "https://demo-rental-property-app.vusa.io/",
     text: "A react app for finding rental properties based on your preferences.",
     footer: "2020 · Web App Development",
-    imgSrc: "assets/RentBarkerPreview.png",
+    imgSrc: "assets/RentalAppPreview.png",
     imgAlt: "Rental",
   },
   {
