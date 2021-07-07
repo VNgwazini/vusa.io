@@ -21,8 +21,8 @@ export const projectData = [
     id: 3,
     title: "Healthcare App",
     link: "https://demo-healthcare-app.vusa.io/",
-    text: "An app for managing blood inventory between multiple blood banks.",
-    footer: "2020 · Web App Development",
+    text: "An app for managing blood inventory and requests between multiple blood banks.",
+    footer: "2021 · Web App Development",
     imgSrc: "assets/WalaPreview.png",
     imgAlt: "Healthcare",
   }
@@ -57,7 +57,7 @@ export const experienceData = [
       },
       {id: 3,
         company: "Bantucracy",
-        position: "Software Engineer, Full Stack",
+        position: "Software Engineer, Front End",
         duration: "August 2020 – November 2020",
         about: "Boston research-based tech & tech policy startup company with a strong focus on ubuntu ethics, technology and human rights.",
         responsibilities: [
@@ -67,7 +67,7 @@ export const experienceData = [
       },
       {id: 4,
         company: "Lockheed Martin Aeronautics",
-        position: "Software Engineer, Backend",
+        position: "Software Engineer, Back End",
         duration: "July 2019 – August 2020",
         about: "",
         responsibilities: [
@@ -121,12 +121,21 @@ export const experienceData = [
     category: "PERSONAL PROJECTS",
     jobs: [
       {id: 1,
-        company: "Khumbula - Image Matching Game",
+        company: "Khumbula - Image Matching Game for Android",
         position: "Software Engineer, Android",
         duration: "January 2021 – Currently",
         about: "Khumbula, meaning 'remember' in the Zulu language, is an open-source African themed matching game that serves the goal of sharpening our user’s short-term memory by finding pairs of tiles in the shortest number of moves.",
         responsibilities: [
-        "Developing main activities, & XML layouts for our published app utilizing Kotlin & Android Studio.",
+        "Developing main activities & XML layouts for my published app utilizing Kotlin & Android Studio.",
+        ]
+      },
+      {id: 2,
+        company: "Check On Them - Cross Platform App",
+        position: "Software Engineer, Flutter",
+        duration: "July 2021 – Currently",
+        about: "Check On Them, a cross platform app, is designed for people who struggle with keeping up with or following up with other people. Our app simply selects a random person from your contacts each day and gently suggests that you ‘check on them’.",
+        responsibilities: [
+        "Developing main activities & XML layouts utilizing Flutter & Android Studio.",
         ]
       }
     ]
