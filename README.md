@@ -1,2 +1,2 @@
 # vngwazini.github.io
-Biography and portfolio site
+Vusumuzi Ngwazini's Software Engineering Portfolio.
