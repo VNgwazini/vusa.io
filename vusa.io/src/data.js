@@ -4,7 +4,7 @@ export const projectData = [
     title: "Khumbula: Memory Game",
     link: "https://play.google.com/store/apps/details?id=com.vusa.mymemory",
     text: "An image matching game for Android with 3 difficulty levels.",
-    footer: "2021 · Android App Development",
+    footer: "2021 · Android Development",
     imgSrc: "assets/Khumbula_feature_graphic.png",
     imgAlt: "Khumbula",
   },
@@ -21,11 +21,20 @@ export const projectData = [
     id: 3,
     title: "Healthcare App",
     link: "https://demo-healthcare-app.vusa.io/",
-    text: "An app for managing blood inventory and requests between multiple blood banks.",
+    text: "A single-page app for managing blood inventory and requests between multiple blood banks.",
     footer: "2021 · Web App Development",
     imgSrc: "assets/WalaPreview.png",
     imgAlt: "Healthcare",
-  }
+  },
+  // {
+  //   id: 4,
+  //   title: "Check On Them! App",
+  //   link: "https://github.com/VNgwazini/Check-On-Them-App",
+  //   text: "A cross platform app for helping users build the habit of checking on their friends.",
+  //   footer: "2021 · Android & iOS Development",
+  //   imgSrc: "assets/CheckOnThemLaunchIcon.png",
+  //   imgAlt: "CheckOnThem",
+  // },
 ];
 
 
@@ -132,7 +141,7 @@ export const experienceData = [
       {id: 2,
         company: "Check On Them - Cross Platform App",
         position: "Software Engineer, Flutter",
-        duration: "July 2021 – Currently",
+        duration: "June 2021 – Currently",
         about: "Check On Them, a cross platform app, is designed for people who struggle with keeping up with or following up with other people. Our app simply selects a random person from your contacts each day and gently suggests that you ‘check on them’.",
         responsibilities: [
         "Developing main activities & XML layouts utilizing Flutter & Android Studio.",
