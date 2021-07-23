@@ -26,15 +26,15 @@ export const projectData = [
     imgSrc: "assets/WalaPreview.png",
     imgAlt: "Healthcare",
   },
-  // {
-  //   id: 4,
-  //   title: "Check On Them! App",
-  //   link: "https://github.com/VNgwazini/Check-On-Them-App",
-  //   text: "A cross platform app for helping users build the habit of checking on their friends.",
-  //   footer: "2021 · Android & iOS Development",
-  //   imgSrc: "assets/CheckOnThemLaunchIcon.png",
-  //   imgAlt: "CheckOnThem",
-  // },
+  {
+    id: 4,
+    title: "Check On Them! App",
+    link: "https://github.com/VNgwazini/Check-On-Them-App",
+    text: "A cross platform app for helping users build the habit of checking on their friends.",
+    footer: "2021 · Android & iOS Development",
+    imgSrc: "assets/CheckOnThemLaunchIcon.png",
+    imgAlt: "CheckOnThem",
+  },
 ];
 
 
@@ -56,7 +56,7 @@ export const experienceData = [
         company: "Wala Digital Health",
         position: "Software Engineer, Full Stack",
         duration: "October 2020 – February 2021",
-        about: "Harvard and MIT alumni-founded startup featuring an integrated digital platform for easy, quick blood supply and sharing critical for life-saving transfusions.",
+        about: "Harvard and MIT alumni-founded startup featuring a SaaS Software connecting hospitals and donors for critical life-saving transfusions.",
         responsibilities: [
         "Developed a single-page application for online blood management through the software development life cycle, utilizing the React framework on the front end, and MongoDB and Strapi on the back end.",
         "Built core features & functionalities for minimal viable product based on client needs and feedback",
@@ -142,7 +142,7 @@ export const experienceData = [
         company: "Check On Them - Cross Platform App",
         position: "Software Engineer, Flutter",
         duration: "June 2021 – Currently",
-        about: "Check On Them, a cross platform app, is designed for people who struggle with keeping up with or following up with other people. Our app simply selects a random person from your contacts each day and gently suggests that you ‘check on them’.",
+        about: "Check On Them, a cross platform app, is designed for people who struggle with keeping up with or following up with other people. My app simply selects people from your contacts and gently suggests that you ‘check on them’.",
         responsibilities: [
         "Developing main activities & XML layouts utilizing Flutter & Android Studio.",
         ]
