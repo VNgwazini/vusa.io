@@ -7,6 +7,7 @@ import Projects from './components/projects/Projects';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
 import { BrowserRouter, Route } from 'react-router-dom'
+import Resume from './components/resume/Resume';
 
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Route exact path="/home" component={About}/>
       <Route exact path="/projects" component={Projects}/>
       <Route exact path="/experience" component={Experience}/>
+      <Route exact path="/resume" component={Resume}/>
     </BrowserRouter>,
   document.getElementById('root')
 );

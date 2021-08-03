@@ -3,7 +3,7 @@ import {
   Nav, 
   Navbar, 
 } from 'react-bootstrap/'
-import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter } from "@material-ui/icons"
+import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter, Description } from "@material-ui/icons"
 
 export default function Topbar() {
   return (
@@ -23,6 +23,10 @@ export default function Topbar() {
     <Nav.Link href="/experience">
       <Work className="icon"/>
       &nbsp; Experience
+    </Nav.Link>
+    <Nav.Link href="/resume">
+      <Description className="icon"/>
+      &nbsp; Resume
     </Nav.Link>
     <Nav.Link href="https://www.linkedin.com/in/vusumuzi-ngwazini/" target="_blank">
       <LinkedIn className="icon"/>
