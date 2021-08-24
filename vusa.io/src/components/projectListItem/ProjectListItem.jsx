@@ -6,12 +6,12 @@ import {
 
 export default function ProjectListItem({item}) {
   return (
-        <Col className="d-flex justify-content-center text-center projectListItem my-4" lg={4}>
+        <Col className="d-flex justify-content-center text-center projectListItem my-4" lg={3} md={6} sm={6}>
           <a 
             href={item.link}
             target="_blank" rel="noreferrer"
           >
-          <Card className="shadow card-size mx-4 my-4">
+          <Card className="shadow card-size">
               <Card.Img 
                 src={item.imgSrc}
                 alt={item.imgAlt}
