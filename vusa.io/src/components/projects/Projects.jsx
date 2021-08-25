@@ -26,7 +26,7 @@ export default function Projects() {
           <h5>Software Engineering Portfolio</h5>
         </Col>
       </Row>
-      <Row>
+      <Row className="mx-4">
         {data.map((item) => (
           <ProjectListItem item={item}/>
         ))}
