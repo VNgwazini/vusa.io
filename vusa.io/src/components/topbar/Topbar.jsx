@@ -3,7 +3,7 @@ import {
   Nav, 
   Navbar, 
 } from 'react-bootstrap/'
-import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter, Description } from "@material-ui/icons"
+import {Home, Apps, Work, Mail, LinkedIn, GitHub, Twitter, Nature, Description } from "@material-ui/icons"
 
 export default function Topbar() {
   return (
@@ -39,6 +39,10 @@ export default function Topbar() {
       <Nav.Link href="https://twitter.com/VNgwazini" target="_blank">
         <Twitter className="icon"/>
         &nbsp; Twitter
+      </Nav.Link>
+      <Nav.Link href="https://linktr.ee/vusa" target="_blank">
+        <Nature className="icon"/>
+        &nbsp; LinkTree
       </Nav.Link>
       <Nav.Link href="mailto:vusumuzi.ngwazini@gmail.com" target="_blank">
         <Mail className="icon"/>
