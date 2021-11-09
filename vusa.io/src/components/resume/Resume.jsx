@@ -9,7 +9,7 @@ import {
 } from 'react-bootstrap/'
 
 export default function Resume() {
-const url = "https://drive.google.com/file/d/1GzCRmP2Y_L-nTBr__dc0ZTUj6mDMurNO/preview"
+const url = "https://drive.google.com/file/d/1VTV4SKI1dsIG8JPaACIFJLlG6kb8G5zI/preview"
   return (
     <>
     <Topbar/>
@@ -28,7 +28,7 @@ const url = "https://drive.google.com/file/d/1GzCRmP2Y_L-nTBr__dc0ZTUj6mDMurNO/p
         <Row>
           <Col className="d-flex justify-content-center py-1">
             <Button>
-              <a href="/assets/Vusumuzi_Ngwazini_Resume_V8.pdf" target="_blank" class="btn">Download Resume</a>
+              <a href="/assets/Vusumuzi_Ngwazini_Resume_V8.3.pdf" target="_blank" class="btn">Download Resume</a>
             </Button>
           </Col>
         </Row>
