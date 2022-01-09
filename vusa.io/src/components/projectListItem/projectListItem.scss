@@ -1,4 +1,16 @@
 .projectListItem{
   background: inherit;
   color: inherit;
+  .card{
+    color: black;
+  }
+
+  .card-footer{
+    font-weight: 700;
+  }
+
+  a:link, a:visited,  a:hover, a:active{
+    color: #000000;
+    text-decoration: none;
+  }
 }
