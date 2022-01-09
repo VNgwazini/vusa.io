@@ -1,21 +1,21 @@
 export const projectData = [
   {
     id: 1,
-    title: "Khumbula: Memory Game",
-    link: "https://play.google.com/store/apps/details?id=com.vusa.mymemory",
-    text: "An image matching game for Android with 3 difficulty levels.",
-    footer: "2021 · Android Development",
-    imgSrc: "assets/Khumbula_feature_graphic.png",
-    imgAlt: "Khumbula",
-  },
-  {
-    id: 2,
     title: "Rental Property App",
     link: "https://demo-rental-property-app.vusa.io/",
     text: "A react app for finding rental properties based on your preferences.",
     footer: "2020 · Web App Development",
     imgSrc: "assets/RentalAppPreview.png",
     imgAlt: "Rental",
+  },
+  {
+    id: 2,
+    title: "Khumbula: Memory Game",
+    link: "https://play.google.com/store/apps/details?id=com.vusa.mymemory",
+    text: "An image matching game for Android with 3 difficulty levels.",
+    footer: "2021 · Android Development",
+    imgSrc: "assets/Khumbula_feature_graphic.png",
+    imgAlt: "Khumbula",
   },
   {
     id: 3,
@@ -34,6 +34,15 @@ export const projectData = [
     footer: "2021 · Android & iOS Development",
     imgSrc: "assets/CheckOnThemLaunchIcon.png",
     imgAlt: "CheckOnThem",
+  },
+  {
+    id: 5,
+    title: "Church App",
+    link: "https://demo-church-app.vusa.io/",
+    text: "A website for a local church with links to sermons, study guides, and donation portals.",
+    footer: "2022 · Web App Development",
+    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/11/Pastor-Howard_-Pastor-Morris-1024x585.jpg",
+    imgAlt: "Church",
   },
 ];
 
