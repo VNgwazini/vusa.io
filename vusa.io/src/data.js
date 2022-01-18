@@ -9,6 +9,15 @@ export const projectData = [
     imgAlt: "CheckOnThem",
   },
   {
+    id: 5,
+    title: "Church App",
+    link: "https://demo-church-app.vusa.io/",
+    text: "A website for a local church with links to sermons, study guides, and donation portals.",
+    footer: "2022 · Web App Development",
+    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/11/Pastor-Howard_-Pastor-Morris-1024x585.jpg",
+    imgAlt: "Church",
+  },
+  {
     id: 3,
     title: "Healthcare App",
     link: "https://demo-healthcare-app.vusa.io/",
@@ -18,7 +27,7 @@ export const projectData = [
     imgAlt: "Healthcare",
   },
   {
-    id: 1,
+    id: 2,
     title: "Khumbula: Memory Game",
     link: "https://play.google.com/store/apps/details?id=com.vusa.mymemory",
     text: "An image matching game for Android with 3 difficulty levels.",
@@ -27,7 +36,7 @@ export const projectData = [
     imgAlt: "Khumbula",
   },
   {
-    id: 2,
+    id: 1,
     title: "Rental Property App",
     link: "https://demo-rental-property-app.vusa.io/",
     text: "A react app for finding rental properties based on your preferences.",
@@ -35,6 +44,7 @@ export const projectData = [
     imgSrc: "assets/RentalAppPreview.png",
     imgAlt: "Rental",
   },
+
 ];
 
 

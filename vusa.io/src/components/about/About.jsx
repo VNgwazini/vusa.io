@@ -48,16 +48,16 @@ export default function About() {
             <Card.Subtitle className="text-center text-muted">
               Freelance <span className="typing" ref={textRef}></span>
             </Card.Subtitle>
-            <Card.Body className="text-center px-4">
-              <Card.Text className="text-center px-4">
+            <Card.Body className="text-center">
+              <Card.Text className="text-center">
                 Vusumuzi is a software engineer, technology enthusiast, and is active in the technology startup community.
                 He is interested in consumer software, web services, and back end development opportunities.
               </Card.Text>
-              <Card.Text className="text-center px-4">
+              <Card.Text className="text-center">
                 As an i3 Scholar at the iSchool Inclusion Institute (i3), he has published research in spatial information processing and cognitively salient wayfinding aids. 
                 As a SULI selectee at the Department of Energy, he has researched the viability of neural networks in predicting the amplitude of aperiodic signals.
               </Card.Text>
-              <Card.Text className="text-center px-4">
+              <Card.Text className="text-center">
                 He graduated with honors in 2019 from Oakwood University where he received a Bachelor’s in Computer Science.
               </Card.Text>
             </Card.Body>
