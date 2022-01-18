@@ -1,6 +1,4 @@
 import "./projects.scss";
-import Topbar from '../../components/topbar/Topbar';
-import Footer from '../../components/footer/Footer';
 import { useState } from "react";
 import { 
   Row,

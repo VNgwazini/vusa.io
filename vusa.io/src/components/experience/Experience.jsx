@@ -1,6 +1,4 @@
 import { useState } from "react";
-import Topbar from '../../components/topbar/Topbar';
-import Footer from '../../components/footer/Footer';
 import "./experience.scss";
 import { 
   Container,

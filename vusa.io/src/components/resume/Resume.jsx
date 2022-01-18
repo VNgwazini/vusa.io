@@ -1,5 +1,3 @@
-import Topbar from '../topbar/Topbar';
-import Footer from '../footer/Footer';
 import "./resume.scss";
 import { 
   Container,

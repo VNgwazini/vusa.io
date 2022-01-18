@@ -2,7 +2,6 @@ import "./experienceListItem.scss";
 import { 
   Col,
   Card,
-  Row,
 } from 'react-bootstrap/'
 
 export default function ExperienceListItem({experience}) {
