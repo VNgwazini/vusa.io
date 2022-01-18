@@ -1,7 +1,6 @@
 .about{
   background: white;
   color: black;
-  height: calc(100vh - 20px);
 
   img {
     max-height: inherit;
@@ -16,5 +15,10 @@
   .card-size{
     background: white;
     border: transparent;
+  }
+
+  .card-title{
+    color: navy;
+    font-weight: bold;
   }
 }

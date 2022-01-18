@@ -1,4 +1,13 @@
 .projectListItem{
   background: inherit;
   color: inherit;
+
+  .card-title{
+    color: navy;
+    font-weight: bold;
+  }
+
+  .card-text{
+    color: navy;
+  }
 }

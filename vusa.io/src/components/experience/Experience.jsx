@@ -18,18 +18,18 @@ export default function Experience() {
 
   return (
     <>
-    <Topbar/>
-    <Container className="experience content-container px-4" id="experience" fluid="true">
+    <Container className="experience content-container" id="experience" fluid="true">
       <Row>
         <Col className="d-flex justify-content-center content">
           <h5>Work Experience</h5>
         </Col>
       </Row>
+      <Row className="mx-4">
         {data.map((experience) => (
           <ExperienceListItem experience={experience}/>
         ))}
+      </Row>
     </Container>
-    <Footer/>
     </>
   )
 
