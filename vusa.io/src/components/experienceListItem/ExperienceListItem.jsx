@@ -2,13 +2,11 @@ import "./experienceListItem.scss";
 import { 
   Col,
   Card,
-  Row,
 } from 'react-bootstrap/'
 
 export default function ExperienceListItem({experience}) {
   return (
-    <Row>
-      <Col className="d-flex justify-content-center py-4 mb-4 experienceListItem">
+      <Col className="d-flex justify-content-center py-4 experienceListItem" lg={6} md={12} sm={12}>
         <Card className="shadow card-size">
           <Card.Header>
             {experience.category}
@@ -46,6 +44,5 @@ export default function ExperienceListItem({experience}) {
           </Card.Body>
         </Card>
       </Col>
-    </Row>
   )
 }

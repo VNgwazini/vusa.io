@@ -1,37 +1,10 @@
 export const projectData = [
   {
-    id: 1,
-    title: "Rental Property App",
-    link: "https://demo-rental-property-app.vusa.io/",
-    text: "A react app for finding rental properties based on your preferences.",
-    footer: "2020 · Web App Development",
-    imgSrc: "assets/RentalAppPreview.png",
-    imgAlt: "Rental",
-  },
-  {
-    id: 2,
-    title: "Khumbula: Memory Game",
-    link: "https://play.google.com/store/apps/details?id=com.vusa.mymemory",
-    text: "An image matching game for Android with 3 difficulty levels.",
-    footer: "2021 · Android Development",
-    imgSrc: "assets/Khumbula_feature_graphic.png",
-    imgAlt: "Khumbula",
-  },
-  {
-    id: 3,
-    title: "Healthcare App",
-    link: "https://demo-healthcare-app.vusa.io/",
-    text: "A single-page app for managing blood inventory and requests between multiple blood banks.",
-    footer: "2021 · Web App Development",
-    imgSrc: "assets/WalaPreview.png",
-    imgAlt: "Healthcare",
-  },
-  {
     id: 4,
     title: "Check On Them! App",
     link: "https://github.com/VNgwazini/Check-On-Them-App",
     text: "A cross platform app for helping users build the habit of checking on their friends.",
-    footer: "2021 · Android & iOS Development",
+    footer: "2022 · Android & iOS Development",
     imgSrc: "assets/CheckOnThemLaunchIcon.png",
     imgAlt: "CheckOnThem",
   },
@@ -44,6 +17,34 @@ export const projectData = [
     imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/11/Pastor-Howard_-Pastor-Morris-1024x585.jpg",
     imgAlt: "Church",
   },
+  {
+    id: 3,
+    title: "Healthcare App",
+    link: "https://demo-healthcare-app.vusa.io/",
+    text: "A single-page app for managing blood inventory and requests between multiple blood banks.",
+    footer: "2021 · Web App Development",
+    imgSrc: "assets/WalaPreview.png",
+    imgAlt: "Healthcare",
+  },
+  {
+    id: 2,
+    title: "Khumbula: Memory Game",
+    link: "https://play.google.com/store/apps/details?id=com.vusa.mymemory",
+    text: "An image matching game for Android with 3 difficulty levels.",
+    footer: "2021 · Android Development",
+    imgSrc: "assets/Khumbula_feature_graphic.png",
+    imgAlt: "Khumbula",
+  },
+  {
+    id: 1,
+    title: "Rental Property App",
+    link: "https://demo-rental-property-app.vusa.io/",
+    text: "A react app for finding rental properties based on your preferences.",
+    footer: "2020 · Web App Development",
+    imgSrc: "assets/RentalAppPreview.png",
+    imgAlt: "Rental",
+  },
+
 ];
 
 
@@ -105,7 +106,12 @@ export const experienceData = [
         "Coding sprints, team standup meetings, and peer code reviews leveraging Scrum Agile Framework."
         ]
       },
-      {id: 6,
+    ],
+  },
+  {
+    category: "INTERNSHIPS",
+    jobs: [
+      {id: 1,
         company: "Oak Ridge National Laboratory",
         position: "Intern, Machine Learning",
         duration: "Spring 2019",
@@ -115,7 +121,7 @@ export const experienceData = [
         "Visualized engine and neural network performance data to serve as a baseline for future development."
         ]
       },
-      {id: 7,
+      {id: 2,
         company: "Florida Hospital, Advent Health",
         position: "Intern, Backend",
         duration: "Summer 2018",
@@ -125,7 +131,7 @@ export const experienceData = [
         "Visualized and analyzed data with Power BI and Oracle BI for Clinical Applications team."
         ]
       },
-      {id: 8,
+      {id: 3,
         company: "Information Consultants",
         position: "Intern",
         duration: "Fall 2017 – Spring 2018",
@@ -134,7 +140,7 @@ export const experienceData = [
         "Built input forms and designed back-end workflows to automate business processes and push data to client databases.",
         ]
       },
-      {id: 9,
+      {id: 4,
         company: "Information Inclusion Institute",
         position: "Intern",
         duration: "Summer 2017",
@@ -143,7 +149,7 @@ export const experienceData = [
         "Utilized Python to mine for JSON data on the Twitter API & performed analysis utilizing R-Studio to measure the impact of a major social event through social media platforms in real time.",
         ]
       }
-    ]
+    ],
   },
   {
     category: "PERSONAL PROJECTS",

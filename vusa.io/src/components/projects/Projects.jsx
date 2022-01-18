@@ -1,6 +1,4 @@
 import "./projects.scss";
-import Topbar from '../../components/topbar/Topbar';
-import Footer from '../../components/footer/Footer';
 import { useState } from "react";
 import { 
   Row,
@@ -19,7 +17,6 @@ export default function Projects() {
 
   return (
     <>
-    <Topbar/>
     <Container className="projects content-container" id="projects" fluid="true">
        <Row>
          <Col className="d-flex justify-content-center">
@@ -32,7 +29,6 @@ export default function Projects() {
         ))}
       </Row>
     </Container>
-    <Footer/>
     </>
   )
 }
