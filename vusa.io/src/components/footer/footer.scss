@@ -2,7 +2,14 @@
   position:fixed;
   bottom:0;
   background: white;
-  color: grey;
   height: 20px;
   width: 100vw;
+
+  span{
+    color: navy !important;
+    // font-weight: bold;
+  }
+  a{
+    color: navy !important;
+  }
 }
