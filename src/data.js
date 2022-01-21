@@ -36,6 +36,15 @@ export const projectData = [
     imgAlt: "Church",
   },
   {
+    id: 6,
+    title: "Moving Company App",
+    link: "https://demo-moving-company-app.vusa.io/",
+    text: "A website for a local moving company with links for directions, social media, and booking appointments.",
+    footer: "2022 · Web App Development",
+    imgSrc: "https://lh3.googleusercontent.com/p/AF1QipNzVunLTYR_R3EY-GVBN9AUHewv-3gtId7o2Oaf=s1280-p-no-v1",
+    imgAlt: "Moving",
+  },
+  {
     id: 4,
     title: "Check On Them! App",
     link: "https://github.com/VNgwazini/Check-On-Them-App",
