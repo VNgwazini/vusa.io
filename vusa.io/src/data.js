@@ -1,21 +1,12 @@
 export const projectData = [
   {
-    id: 4,
-    title: "Check On Them! App",
-    link: "https://github.com/VNgwazini/Check-On-Them-App",
-    text: "A cross platform app for helping users build the habit of checking on their friends.",
-    footer: "2022 · Android & iOS Development",
-    imgSrc: "assets/CheckOnThemLaunchIcon.png",
-    imgAlt: "CheckOnThem",
-  },
-  {
-    id: 5,
-    title: "Church App",
-    link: "https://demo-church-app.vusa.io/",
-    text: "A website for a local church with links to sermons, study guides, and donation portals.",
-    footer: "2022 · Web App Development",
-    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/11/Pastor-Howard_-Pastor-Morris-1024x585.jpg",
-    imgAlt: "Church",
+    id: 1,
+    title: "Rental Property App",
+    link: "https://demo-rental-property-app.vusa.io/",
+    text: "A react app for finding rental properties based on your preferences.",
+    footer: "2020 · Web App Development",
+    imgSrc: "assets/RentalAppPreview.png",
+    imgAlt: "Rental",
   },
   {
     id: 3,
@@ -36,15 +27,23 @@ export const projectData = [
     imgAlt: "Khumbula",
   },
   {
-    id: 1,
-    title: "Rental Property App",
-    link: "https://demo-rental-property-app.vusa.io/",
-    text: "A react app for finding rental properties based on your preferences.",
-    footer: "2020 · Web App Development",
-    imgSrc: "assets/RentalAppPreview.png",
-    imgAlt: "Rental",
+    id: 5,
+    title: "Church App",
+    link: "https://demo-church-app.vusa.io/",
+    text: "A website for a local church with links to sermons, study guides, and donation portals.",
+    footer: "2022 · Web App Development",
+    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/11/Pastor-Howard_-Pastor-Morris-1024x585.jpg",
+    imgAlt: "Church",
   },
-
+  {
+    id: 4,
+    title: "Check On Them! App",
+    link: "https://github.com/VNgwazini/Check-On-Them-App",
+    text: "A cross platform app for helping users build the habit of checking on their friends.",
+    footer: "2022 · Android & iOS Development",
+    imgSrc: "assets/CheckOnThemLaunchIcon.png",
+    imgAlt: "CheckOnThem",
+  },
 ];
 
 
