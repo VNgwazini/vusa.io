@@ -5,6 +5,8 @@ import {
   Row,
   Col,
 } from 'react-bootstrap/'
+import FadeIn from 'react-fade-in';
+
 import ExperienceListItem from "../experienceListItem/ExperienceListItem";
 import {
   experienceData
@@ -17,16 +19,18 @@ export default function Experience() {
   return (
     <>
     <Container className="experience content-container" id="experience" fluid="true">
-      <Row>
-        <Col className="d-flex justify-content-center content">
-          <h5>Work Experience</h5>
-        </Col>
-      </Row>
-      <Row className="mx-4">
-        {data.map((experience) => (
-          <ExperienceListItem experience={experience}/>
-        ))}
-      </Row>
+      <FadeIn>
+        <Row>
+          <Col className="d-flex justify-content-center content">
+            <h5>Work Experience</h5>
+          </Col>
+        </Row>
+        <Row className="mx-4">
+          {data.map((experience) => (
+            <ExperienceListItem experience={experience}/>
+          ))}
+        </Row>
+      </FadeIn>
     </Container>
     </>
   )

@@ -5,6 +5,8 @@ import {
   Col,
   Container,
 } from 'react-bootstrap/'
+import FadeIn from 'react-fade-in';
+
 
 import ProjectListItem from "../projectListItem/ProjectListItem";
 import {
@@ -18,16 +20,18 @@ export default function Projects() {
   return (
     <>
     <Container className="projects content-container" id="projects" fluid="true">
-       <Row>
-         <Col className="d-flex justify-content-center">
-          <h5>Software Engineering Portfolio</h5>
-        </Col>
-      </Row>
-      <Row className="mx-4">
-        {data.map((item) => (
-          <ProjectListItem item={item}/>
-        ))}
-      </Row>
+      <FadeIn>
+        <Row>
+          <Col className="d-flex justify-content-center">
+            <h5>Software Engineering Portfolio</h5>
+          </Col>
+        </Row>
+        <Row className="mx-4">
+          {data.map((item) => (
+            <ProjectListItem item={item}/>
+          ))}
+        </Row>
+      </FadeIn>
     </Container>
     </>
   )
