@@ -6,7 +6,7 @@ import {
 
 export default function ProjectListItem({item}) {
   return (
-        <Col className="d-flex justify-content-center text-center projectListItem my-4" lg={3} md={6} sm={6}>
+        <Col className="text-center projectListItem my-4" lg={2} md={6} sm={6}>
           <a 
             href={item.link}
             target="_blank" rel="noreferrer"
