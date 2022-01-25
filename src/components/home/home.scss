@@ -1,0 +1,82 @@
+.home{
+  font-size: large;
+  position:relative;
+  background: white;
+  color: navy;
+
+
+  .home-title{
+    font-size: xx-large;
+    font-weight: 900;
+  }
+
+  .trusted{
+    background-color: whitesmoke;
+    p{
+      font-size: medium;
+    }
+  }
+
+  .trusted-title{
+    font-size: large;
+    font-weight: 900;
+  }
+
+  .primary-buttons{
+    justify-content: space-around !important;
+    text-align: center;
+  }
+
+  .testimonials{
+    h3{
+      color: maroon;
+    }
+    p{
+      color: black;
+      font-size: medium;
+    }
+  }
+  .list-group-item{
+    font-size: medium;
+  }
+  .card{
+    border-color: transparent !important;
+  }
+
+  .card-text{
+    font-size: medium;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+  .hours{
+    background-color: whitesmoke;
+    .card{
+      background-color: whitesmoke;
+      .card-title{
+        font-size: x-large;
+        font-weight: bold;
+      }
+      .list-group-item{
+        background-color: whitesmoke;
+      }
+    }
+  }
+
+  .map{
+    .card{
+      background-color: whitesmoke;
+    }
+  }
+
+  .heading{
+    background-color: whitesmoke;
+  }
+
+  .typing{
+    color: green;
+  }
+
+}
