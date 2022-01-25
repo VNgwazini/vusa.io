@@ -18,6 +18,15 @@ export const projectData = [
     imgAlt: "Moving",
   },
   {
+    id: 5,
+    title: "Church App",
+    link: "https://demo-church-app.vusa.io/",
+    text: "A website for a local church with links to sermons, study guides, and donation portals.",
+    footer: "2022 · Web App Development",
+    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/11/Pastor-Howard_-Pastor-Morris-1024x585.jpg",
+    imgAlt: "Church",
+  },
+  {
     id: 3,
     title: "Healthcare App",
     link: "https://demo-healthcare-app.vusa.io/",
@@ -43,15 +52,6 @@ export const projectData = [
     footer: "2021 · Android Development",
     imgSrc: "assets/Khumbula_feature_graphic.png",
     imgAlt: "Khumbula",
-  },
-  {
-    id: 5,
-    title: "Church App",
-    link: "https://demo-church-app.vusa.io/",
-    text: "A website for a local church with links to sermons, study guides, and donation portals.",
-    footer: "2022 · Web App Development",
-    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/11/Pastor-Howard_-Pastor-Morris-1024x585.jpg",
-    imgAlt: "Church",
   },
 ];
 
