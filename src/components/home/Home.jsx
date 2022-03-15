@@ -29,30 +29,20 @@ export default function Home() {
       <Container className="content-container py-4 px-4">
         <FadeIn>
           <Row className="h-50">
-            <Col className="d-flex justify-content-center">
+            <Col className="d-flex justify-content-center" lg={6} md={6} sm={12}>
               <img
               src="assets/headshot.png"
               alt="Headshot"
               className="img-thumbnail"
               />
             </Col>
-          </Row>
-          <Row>
-            <Col className="">
+            <Col className="text-center" lg={6} md={6} sm={12}>
               <p className="home-title text-center">
-              Vusumuzi Ngwazini
+                Vusumuzi Ngwazini
               </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="">
               <p className="text-center type-effect text-muted">
-              Freelance <span className="typing" ref={textRef}></span>
+                Freelance <span className="typing" ref={textRef}></span>
               </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="">
               <p className="text-center">
                 Vusumuzi is a software engineer, technology enthusiast, and is active in the technology startup community.
                 He is interested in consumer software, web services, and back end development opportunities.
@@ -63,6 +53,12 @@ export default function Home() {
               </p>
               <p className="text-center">
                 He graduated with honors in 2019 from Oakwood University where he received a Bachelor’s in Computer Science.
+              </p>
+              <p className="trusted-title text-center">
+              Welcome, take a look around.
+              </p>
+              <p className="text-center text-muted">
+              Let me know how I can serve you today!
               </p>
             </Col>
           </Row>
