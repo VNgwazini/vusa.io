@@ -1,3 +1,57 @@
+export const paymentData = [
+  {
+    id: 2,
+    title: "Venmo",
+    link: "https://venmo.com/code?user_id=2477025851867136928&created=1647282858.8186212",
+    text: "Send payments to: @Vusumuzi-Ngwazini",
+    footer: "US Dollar",
+    imgSrc: "assets/QR_Venmo.jpg",
+    imgAlt: "Venmo",
+  },
+  {
+    id: 6,
+    title: "CashApp",
+    link: "https://cash.app/$vusajazz?qr=1",
+    text: "Send payments to: $vusajazz",
+    footer: "US Dollar",
+    imgSrc: "assets/QR_CashApp.jpg",
+    imgAlt: "CashApp",
+  },
+  {
+    id: 4,
+    title: "Zelle",
+    link: "https://enroll.zellepay.com/qr-codes?data=ewogICJuYW1lIiA6ICJWVVNVTVVaSSIsCiAgInRva2VuIiA6ICJ2dXN1bXV6aS5uZ3dhemluaUBnbWFpbC5jb20iLAogICJhY3Rpb24iIDogInBheW1lbnQiCn0=",
+    text: "Send payments to: vusumuzi.ngwazini@gmail.com",
+    footer: "US Dollar",
+    imgSrc: "assets/QR_Zelle2.PNG",
+    imgAlt: "Zelle",
+  },
+  {
+    id: 3,
+    title: "USD Coin",
+    text: "Send payments to: 0xd34406086613CA6e5552bFe7e33dA5AfE24A7bdf",
+    footer: "Cryptocurrency",
+    imgSrc: "assets/QR_USDC.jpg",
+    imgAlt: "USD Coin",
+  },
+  {
+    id: 5,
+    title: "Bitcoin",
+    text: "Send payments to: bc1qm0ay43gcyd9zn8yvcy2lrqwd2jh2cpwuzkghvn",
+    footer: "Cryptocurrency",
+    imgSrc: "assets/QR_BTC2.jpg",
+    imgAlt: "Bitcoin",
+  },
+  {
+    id: 1,
+    title: "Ethereum",
+    text: "Send payments to: 0xd34406086613CA6e5552bFe7e33dA5AfE24A7bdf",
+    footer: "Cryptocurrency",
+    imgSrc: "assets/QR_ETH2.jpg",
+    imgAlt: "Ethereum",
+  },
+];
+
 export const projectData = [
   {
     id: 4,
