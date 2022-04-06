@@ -61,13 +61,13 @@ export const experienceData = [
     category: "PROFESSIONAL EXPERIENCE",
     jobs: [
       {id: 1,
-        company: "Check On Them! App",
-        position: "Software Engineer, Cross Platform",
-        duration: "June 2021 – Currently",
-        about: "Check On Them, a cross platform app, is designed for people who struggle with keeping up with or following up with other people. My app simply selects people from your contacts each day and gently suggests that you ‘check on them’.",
+        company: "Nitro Moving Company",
+        position: "Software Engineer, Front End",
+        duration: "May 2021 – Currently",
+        about: "Nitro Moving Company is a moving company based in San Bernardino, California. It is ranked as a top 3 moving company in San Bernardino on the Great Guys Moving Website.",
         responsibilities: [
-        "Developing main features & designing layouts utilizing Flutter SDK & Android Studio.",
-        "Expanding features based on user feedback and suggestions."
+        "Designing web pages for small businesses to increase their web traffic and customer engagement.",
+        "Technology consulting and search engine optimization to enhance online presence and increase sales."
         ]
       },
       {id: 2,
