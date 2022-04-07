@@ -41,7 +41,7 @@ export default function Home() {
                 Vusumuzi Ngwazini
               </p>
               <p className="text-center type-effect text-muted">
-                Freelance <span className="typing" ref={textRef}></span>
+                Pro Bono <span className="typing" ref={textRef}></span>
               </p>
               <p className="text-center">
                 Vusumuzi is a software engineer, technology enthusiast, and is active in the technology startup community.
