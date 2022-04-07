@@ -7,7 +7,7 @@ import {
 } from 'react-bootstrap/'
 
 export default function Resume() {
-const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/preview"
+const url = "https://drive.google.com/file/d/122vg24bk1CgIMRqKIOYGAjQD-cRj2I57/preview"
   return (
     <>
     <Container className="resume content-container" id="resume" fluid="true">
@@ -19,7 +19,7 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
       <Row>
           <Col className="d-flex justify-content-center py-2">
             <Button>
-              <a href="https://drive.google.com/uc?id=1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm&export=download" target="_blank" rel="noreferrer" class="btn">Download Resume</a>
+              <a href="https://drive.google.com/uc?id=122vg24bk1CgIMRqKIOYGAjQD-cRj2I57&export=download" target="_blank" rel="noreferrer" class="btn">Download Resume</a>
             </Button>
           </Col>
         </Row>

@@ -1,7 +1,7 @@
 import "./app.scss";
 import Topbar from '../../components/topbar/Topbar';
 import Footer from '../../components/footer/Footer';
-import Payment from "../payment/Payment";
+// import Payment from "../payment/Payment";
 import Projects from '../../components/projects/Projects';
 import Experience from '../../components/experience/Experience';
 import Resume from '../../components/resume/Resume';
@@ -16,7 +16,7 @@ export default function App() {
     <Topbar/>
     <FadeIn>
       <Home/>
-      <Payment/>
+      {/* <Payment/> */}
       <Projects/>
       <Experience/>
       <Resume/>

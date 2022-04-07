@@ -115,17 +115,17 @@ export const experienceData = [
     category: "PROFESSIONAL EXPERIENCE",
     jobs: [
       {id: 1,
-        company: "Nitro Moving Company",
-        position: "Software Engineer, Front End",
+        company: "Nitro Moving Company (Pro Bono)",
+        position: "Software Engineer, Generalist",
         duration: "May 2021 – Currently",
         about: "Nitro Moving Company is a moving company based in San Bernardino, California. It is ranked as a top 3 moving company in San Bernardino on the Great Guys Moving Website.",
         responsibilities: [
-        "Designing web pages for small businesses to increase their web traffic and customer engagement.",
+        "Front end web development utilizing React while increasing web traffic and customer engagement.",
         "Technology consulting and search engine optimization to enhance online presence and increase sales."
         ]
       },
       {id: 2,
-        company: "Bhala - African Keyboard",
+        company: "Bhala - African Keyboard (Pro Bono)",
         position: "Software Engineer, Android",
         duration: "March 2021 – April 2021",
         about: "Bhala is an African startup featuring a multilingual keyboard that learns your writing style and makes writing in African languages faster by leveraging artificial intelligence designed for African languages.",
@@ -135,7 +135,7 @@ export const experienceData = [
         ]
       },
       {id: 3,
-        company: "Wala Digital Health",
+        company: "Wala Digital Health (Pro Bono)",
         position: "Software Engineer, Full Stack",
         duration: "October 2020 – February 2021",
         about: "Harvard and MIT alumni-founded startup featuring a SaaS Software connecting hospitals and donors for critical life-saving transfusions.",
@@ -147,7 +147,7 @@ export const experienceData = [
         ]
       },
       {id: 4,
-        company: "Bantucracy",
+        company: "Bantucracy (Pro Bono)",
         position: "Software Engineer, Front End",
         duration: "August 2020 – November 2020",
         about: "Boston research-based tech & tech policy startup company with a strong focus on ubuntu ethics, technology and human rights.",
