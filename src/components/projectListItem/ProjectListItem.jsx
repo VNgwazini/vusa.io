@@ -6,7 +6,7 @@ import {
 
 export default function ProjectListItem({item}) {
   return (
-        <Col className="text-center projectListItem my-4" lg={2} md={6} sm={6}>
+        <Col className="text-center projectListItem my-4" xl={2} lg={4} md={6} sm={6} xs={12}>
           <a 
             href={item.link}
             target="_blank" rel="noreferrer"
