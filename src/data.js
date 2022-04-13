@@ -95,7 +95,7 @@ export const projectData = [
     link: "https://demo-church-app.vusa.io/",
     text: "A website for a local church with links to sermons, study guides, and donation portals.",
     footer: "React · Web Development",
-    imgSrc: "assets/Church_hero.jpg",
+    imgSrc: "assets/Church_pastor.jpg",
     imgAlt: "Church",
   },
   {
