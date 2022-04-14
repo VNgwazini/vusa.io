@@ -95,7 +95,7 @@ export const projectData = [
     link: "https://demo-church-app.vusa.io/",
     text: "A website for a local church with links to sermons, study guides, and donation portals.",
     footer: "React · Web Development",
-    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/11/Pastor-Howard_-Pastor-Morris-1024x585.jpg",
+    imgSrc: "assets/Church_pastor.jpg",
     imgAlt: "Church",
   },
   {
