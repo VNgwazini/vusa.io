@@ -17,7 +17,7 @@ export default function Topbar() {
   const handleShow = () => setShow(true);
 
   return (
-<Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="navbar">
+<Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="navbar" className="px-3">
   <Navbar.Brand href="/">Vusumuzi Ngwazini</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
