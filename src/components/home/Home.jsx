@@ -4,11 +4,14 @@ import {
  Row,
  Col,
  Button,
+ Offcanvas,
 } from 'react-bootstrap/'
 import { Assignment, CastForEducation, Code, Computer, EmojiObjects, PhoneIphone } from "@material-ui/icons";
 import FadeIn from 'react-fade-in';
 import { init } from 'ityped'
-import { useEffect, useRef } from "react"
+import { InlineWidget } from "react-calendly";
+import { useEffect, useState ,useRef } from "react"
+
 
 export default function Home() {
 
@@ -23,6 +26,11 @@ export default function Home() {
     })
   }, [])
  
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
  return (
   <Container className="home content-container py-4" id="home" fluid="true">
     <FadeIn>
@@ -64,9 +72,22 @@ export default function Home() {
           </Row>
           <Row className="primary-buttons py-4">
             <Col className="">
-              <Button variant="primary" href="https://calendly.com/vusumuzi-ngwazini" target="_blank">
+              <Button variant="primary" onClick={handleShow}>
                 Book an Appointment
               </Button>
+              <Offcanvas show={show} onHide={handleClose}>
+                <Offcanvas.Header closeButton>
+                  <Offcanvas.Title>Book an Appointment</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                  <InlineWidget 
+                    url="https://calendly.com/vusumuzi-ngwazini?hide_gdpr_banner=1" 
+                    styles={{
+                      height: '100%'
+                    }}
+                  />
+                </Offcanvas.Body>
+              </Offcanvas>
             </Col>
             <Col className="">
               <Button variant="outline-primary" href="mailto:vusumuzi.ngwazini@gmail.com" target="_blank">
