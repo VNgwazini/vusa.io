@@ -44,6 +44,9 @@ export default function Home() {
               <p className="text-center type-effect text-muted">
                 Freelance <span className="typing" ref={textRef}></span>
               </p>
+              <p className="trusted-title text-center">
+              About Me
+              </p>
               <p className="text-center">
                 Vusumuzi is a software engineer, technology enthusiast, and is active in the technology startup community.
                 He is interested in consumer software, web services, and back end development opportunities.
@@ -55,6 +58,9 @@ export default function Home() {
               <p className="text-center">
                 He graduated with honors in 2019 from Oakwood University where he received a Bachelor’s in Computer Science.
               </p>
+              {/* <p className="text-center">
+                These days he is a full-time iOS developer for iPhone and iPad devices.
+              </p> */}
               <p className="trusted-title text-center">
               Welcome, take a look around.
               </p>
