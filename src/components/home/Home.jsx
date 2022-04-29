@@ -37,13 +37,6 @@ export default function Home() {
       <Container className="content-container py-4 px-4">
         <FadeIn>
           <Row className="h-50">
-            <Col className="d-flex justify-content-center" lg={6} md={6} sm={12}>
-              <img
-              src="assets/headshot.png"
-              alt="Headshot"
-              className="img-thumbnail"
-              />
-            </Col>
             <Col className="text-center" lg={6} md={6} sm={12}>
               <p className="home-title text-center">
                 Vusumuzi Ngwazini
@@ -68,6 +61,13 @@ export default function Home() {
               <p className="text-center text-muted">
               Let me know how I can serve you today!
               </p>
+            </Col>
+            <Col className="d-flex justify-content-center" lg={6} md={6} sm={12}>
+              <img
+              src="assets/headshot.png"
+              alt="Headshot"
+              className="img-thumbnail"
+              />
             </Col>
           </Row>
           <Row className="primary-buttons py-4">
