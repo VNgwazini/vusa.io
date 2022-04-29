@@ -1,6 +1,6 @@
-.about{
+.options{
   background: white;
-  color: black;
+  color: navy !important;
 
   img {
     max-height: inherit;
@@ -20,5 +20,9 @@
   .card-title{
     color: navy;
     font-weight: bold;
+  }
+  .accordion-button{
+    background: white;
+    color: navy !important;  
   }
 }
