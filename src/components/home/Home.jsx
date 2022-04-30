@@ -113,32 +113,32 @@ export default function Home() {
         </Row>
         <Row className="text-center">
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="">
+            <p className="" onClick={handleShow}>
             <Code/> &nbsp; Full Stack Web Development
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="">
+            <p className="" onClick={handleShow}>
             <Computer/> &nbsp; C++ &amp; Java Development
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="">
+            <p className="" onClick={handleShow}>
             <PhoneIphone/> &nbsp; Mobile Development
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="">
+            <p className="" onClick={handleShow}>
             <CastForEducation/> &nbsp; Computer Science Tutoring
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="">
+            <p className="" onClick={handleShow}>
             <EmojiObjects/> &nbsp; Technology Consulting
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="">
+            <p className="" onClick={handleShow}>
             <Assignment/> &nbsp; Resume Review
             </p>
           </Col>
