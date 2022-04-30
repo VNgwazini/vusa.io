@@ -22,7 +22,12 @@
     font-weight: bold;
   }
   .accordion-button{
-    background: white;
-    color: navy !important;  
+    background: whitesmoke;
+    color: navy !important;
+    font-weight: bold;  
+  }
+  .accordion-header-tag{
+    width: 100%;
+    text-align: center  
   }
 }
