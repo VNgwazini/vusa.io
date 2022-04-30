@@ -45,7 +45,7 @@ export default function Home() {
                 Freelance <span className="typing" ref={textRef}></span>
               </p>
               <p className="trusted-title text-center">
-              About Me
+                About Me
               </p>
               <p className="text-center">
                 Vusumuzi is a software engineer, technology enthusiast, and is active in the technology startup community.

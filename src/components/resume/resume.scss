@@ -5,7 +5,7 @@
   iframe {
     display: block;       /* iframes are inline by default */
     height: calc(100vh - 300px);        /* Viewport-relative units */
-    width: 100vw;
+    width: 100%;
   }
 
   h5{
