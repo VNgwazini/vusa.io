@@ -25,13 +25,13 @@ export default function App() {
           <Col>
             <Accordion className="px-4">
               <Accordion.Item eventKey="0">
-                <Accordion.Header className="d-flex justify-content-center">Software Engineering Portfolio</Accordion.Header>
+                <Accordion.Header className="d-flex justify-content-center">Projects</Accordion.Header>
                 <Accordion.Body>
                   <Projects/>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>Work Experience</Accordion.Header>
+                <Accordion.Header>Experience</Accordion.Header>
                 <Accordion.Body>
                   <Experience/>
                 </Accordion.Body>
