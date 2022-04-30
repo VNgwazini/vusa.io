@@ -22,7 +22,7 @@ export default function Home() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:  60,
-      strings: ['Software Engineer','Back-end Developer', 'Front-end Developer'],
+      strings: ['Software Engineer','Front-end Developer','Back-end Developer','Mobile Developer'],
     })
   }, [])
  
