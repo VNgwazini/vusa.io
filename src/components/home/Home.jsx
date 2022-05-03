@@ -5,15 +5,32 @@ import {
  Col,
  Button,
  Offcanvas,
+ Modal,
+ ButtonGroup,
 } from 'react-bootstrap/'
 import { Assignment, CastForEducation, Code, Computer, EmojiObjects, PhoneIphone } from "@material-ui/icons";
 import FadeIn from 'react-fade-in';
 import { init } from 'ityped'
 import { InlineWidget } from "react-calendly";
 import { useEffect, useState ,useRef } from "react"
+import Resume from "../resume/Resume";
+import Experience from "../experience/Experience";
+import Projects from "../projects/Projects";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
 
 export default function Home() {
+  const particlesInit = async (main) => {
+    console.log(main);
+
+    await loadFull(main);
+
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
 
   const textRef = useRef();
 
@@ -31,8 +48,99 @@ export default function Home() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const [showPortfolio, setShowPortfolio] = useState(false);
+  const [showExperience, setShowExperience] = useState(false);
+  const [showResume, setShowResume] = useState(false);
+
+  const handleClosePortfolio = () => setShowPortfolio(false);
+  const handleCloseExperience = () => setShowExperience(false);
+  const handleCloseResume = () => setShowResume(false);
+
+  const handleShowPortfolio = () => setShowPortfolio(true);
+  const handleShowExperience = () => setShowExperience(true);
+  const handleShowResume = () => setShowResume(true);
+
  return (
-  <Container className="home content-container py-4" id="home" fluid="true">
+   <>
+    <Particles
+      style={{zIndex:'auto', position: 'absolute'}}
+      id="tsparticles"
+      init={particlesInit}
+      loaded={particlesLoaded}
+      options={{
+        background: {
+          color: {
+            value: "#ffffff",
+          },
+        },
+        fpsLimit: 120,
+        interactivity: {
+          events: {
+            onClick: {
+              enable: true,
+              mode: "push",
+            },
+            onHover: {
+              enable: true,
+              mode: "repulse",
+            },
+            resize: true,
+          },
+          modes: {
+            push: {
+              quantity: 4,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
+            },
+          },
+        },
+        particles: {
+          color: {
+            value: "#0d47a1",
+          },
+          links: {
+            color: "#ffffff",
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1,
+          },
+          collisions: {
+            enable: true,
+          },
+          move: {
+            direction: "none",
+            enable: true,
+            outModes: {
+              default: "bounce",
+            },
+            random: false,
+            speed: 2,
+            straight: false,
+          },
+          number: {
+            density: {
+              enable: true,
+              area: 800,
+            },
+            value: 80,
+          },
+          opacity: {
+            value: 0.5,
+          },
+          shape: {
+            type: "circle",
+          },
+          size: {
+            value: { min: 1, max: 5 },
+          },
+        },
+        detectRetina: true,
+      }}
+    />
+    <Container className="home content-container py-4" id="home" fluid="true">
     <FadeIn>
       <Container className="content-container py-4 px-4">
         <FadeIn>
@@ -144,7 +252,69 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
+      <Container className="content-container  py-4 px-4" fluid="true">
+        <Row>
+          <Col className="">
+            <p className="trusted-title text-center">
+              More Information
+            </p>
+          </Col>
+        </Row>
+        <Row className="text-center">
+        <ButtonGroup aria-label="Basic example" className="pb-4 mb-4">
+          <Button variant="primary" onClick={handleShowPortfolio}>View Portfolio</Button>
+          <Button variant="primary" onClick={handleShowExperience}>View Experience</Button>
+          <Button variant="primary" onClick={handleShowResume}>View Resume</Button>
+        </ButtonGroup>
+          <Col className="" sm={4} md={4} lg={4}>
+            <Modal show={showPortfolio} onHide={handleClosePortfolio} size="lg">
+              <Modal.Header closeButton>
+                <Modal.Title>Portfolio</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <Projects/>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={handleClosePortfolio}>
+                  Close
+                </Button>
+              </Modal.Footer>
+            </Modal>
+          </Col>
+          <Col className="" sm={4} md={4} lg={4}>
+            <Modal show={showExperience} onHide={handleCloseExperience} size="lg">
+              <Modal.Header closeButton>
+                <Modal.Title>Experience</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <Experience/>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={handleCloseExperience}>
+                  Close
+                </Button>
+              </Modal.Footer>
+            </Modal>
+          </Col>
+          <Col className="" sm={4} md={4} lg={4}>
+            <Modal show={showResume} onHide={handleCloseResume} size="lg">
+              <Modal.Header closeButton>
+                <Modal.Title>Resume</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <Resume/>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={handleCloseResume}>
+                  Close
+                </Button>
+              </Modal.Footer>
+            </Modal>
+          </Col>
+        </Row>
+      </Container>
     </FadeIn>
    </Container>
+   </>
   )
 }
