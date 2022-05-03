@@ -170,7 +170,7 @@ export default function Home() {
           </Col>
         </Row>
         <Row className="text-center">
-        <ButtonGroup aria-label="Basic example">
+        <ButtonGroup aria-label="Basic example" className="pb-4 mb-4">
           <Button variant="primary" onClick={handleShowPortfolio}>View Portfolio</Button>
           <Button variant="primary" onClick={handleShowExperience}>View Experience</Button>
           <Button variant="primary" onClick={handleShowResume}>View Resume</Button>
@@ -187,9 +187,6 @@ export default function Home() {
                 <Button variant="secondary" onClick={handleClosePortfolio}>
                   Close
                 </Button>
-                <Button variant="primary" onClick={handleClosePortfolio}>
-                  Save Changes
-                </Button>
               </Modal.Footer>
             </Modal>
           </Col>
@@ -205,9 +202,6 @@ export default function Home() {
                 <Button variant="secondary" onClick={handleCloseExperience}>
                   Close
                 </Button>
-                <Button variant="primary" onClick={handleCloseExperience}>
-                  Save Changes
-                </Button>
               </Modal.Footer>
             </Modal>
           </Col>
@@ -222,9 +216,6 @@ export default function Home() {
               <Modal.Footer>
                 <Button variant="secondary" onClick={handleCloseResume}>
                   Close
-                </Button>
-                <Button variant="primary" onClick={handleCloseResume}>
-                  Save Changes
                 </Button>
               </Modal.Footer>
             </Modal>
