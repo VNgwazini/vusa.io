@@ -10,7 +10,7 @@ export default function Resume() {
 const url = "https://drive.google.com/file/d/122vg24bk1CgIMRqKIOYGAjQD-cRj2I57/preview"
   return (
     <>
-    <Container className="resume content-container" id="resume" fluid="true">
+    <Container className="resume content-container mt-4" id="resume" fluid="true">
       <Row>
         <Col className="d-flex justify-content-center">
           <h5>Resume</h5>

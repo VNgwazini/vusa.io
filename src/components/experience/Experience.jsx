@@ -18,7 +18,7 @@ export default function Experience() {
 
   return (
     <>
-    <Container className="experience content-container" id="experience" fluid="true">
+    <Container className="experience content-container mt-4" id="experience" fluid="true">
       <FadeIn>
         <Row>
           <Col className="d-flex justify-content-center content">
