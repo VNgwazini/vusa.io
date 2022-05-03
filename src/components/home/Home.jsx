@@ -5,12 +5,17 @@ import {
  Col,
  Button,
  Offcanvas,
+ Modal,
+ ButtonGroup,
 } from 'react-bootstrap/'
 import { Assignment, CastForEducation, Code, Computer, EmojiObjects, PhoneIphone } from "@material-ui/icons";
 import FadeIn from 'react-fade-in';
 import { init } from 'ityped'
 import { InlineWidget } from "react-calendly";
 import { useEffect, useState ,useRef } from "react"
+import Resume from "../resume/Resume";
+import Experience from "../experience/Experience";
+import Projects from "../projects/Projects";
 
 
 export default function Home() {
@@ -30,6 +35,18 @@ export default function Home() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const [showPortfolio, setShowPortfolio] = useState(false);
+  const [showExperience, setShowExperience] = useState(false);
+  const [showResume, setShowResume] = useState(false);
+
+  const handleClosePortfolio = () => setShowPortfolio(false);
+  const handleCloseExperience = () => setShowExperience(false);
+  const handleCloseResume = () => setShowResume(false);
+
+  const handleShowPortfolio = () => setShowPortfolio(true);
+  const handleShowExperience = () => setShowExperience(true);
+  const handleShowResume = () => setShowResume(true);
 
  return (
   <Container className="home content-container py-4" id="home" fluid="true">
@@ -141,6 +158,76 @@ export default function Home() {
             <p className="">
             <Assignment/> &nbsp; Resume Review
             </p>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="content-container  py-4 px-4" fluid="true">
+        <Row>
+          <Col className="">
+            <p className="trusted-title text-center">
+              More Information
+            </p>
+          </Col>
+        </Row>
+        <Row className="text-center">
+        <ButtonGroup aria-label="Basic example">
+          <Button variant="primary" onClick={handleShowPortfolio}>View Portfolio</Button>
+          <Button variant="primary" onClick={handleShowExperience}>View Experience</Button>
+          <Button variant="primary" onClick={handleShowResume}>View Resume</Button>
+        </ButtonGroup>
+          <Col className="" sm={4} md={4} lg={4}>
+            <Modal show={showPortfolio} onHide={handleClosePortfolio} size="lg">
+              <Modal.Header closeButton>
+                <Modal.Title>Portfolio</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <Projects/>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={handleClosePortfolio}>
+                  Close
+                </Button>
+                <Button variant="primary" onClick={handleClosePortfolio}>
+                  Save Changes
+                </Button>
+              </Modal.Footer>
+            </Modal>
+          </Col>
+          <Col className="" sm={4} md={4} lg={4}>
+            <Modal show={showExperience} onHide={handleCloseExperience} size="lg">
+              <Modal.Header closeButton>
+                <Modal.Title>Experience</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <Experience/>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={handleCloseExperience}>
+                  Close
+                </Button>
+                <Button variant="primary" onClick={handleCloseExperience}>
+                  Save Changes
+                </Button>
+              </Modal.Footer>
+            </Modal>
+          </Col>
+          <Col className="" sm={4} md={4} lg={4}>
+            <Modal show={showResume} onHide={handleCloseResume} size="lg">
+              <Modal.Header closeButton>
+                <Modal.Title>Resume</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <Resume/>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={handleCloseResume}>
+                  Close
+                </Button>
+                <Button variant="primary" onClick={handleCloseResume}>
+                  Save Changes
+                </Button>
+              </Modal.Footer>
+            </Modal>
           </Col>
         </Row>
       </Container>
