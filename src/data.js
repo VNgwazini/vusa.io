@@ -115,27 +115,39 @@ export const experienceData = [
     category: "PROFESSIONAL EXPERIENCE",
     jobs: [
       {id: 1,
-        company: "Nitro Moving Company (Pro Bono)",
-        position: "Software Engineer, Generalist",
-        duration: "May 2021 – Currently",
-        about: "Nitro Moving Company is a moving company based in San Bernardino, California. It is ranked as a top 3 moving company in San Bernardino on the Great Guys Moving Website.",
+        company: "American Express, Kabbage",
+        position: "Software Engineer, Android",
+        duration: "May 2022 – Currently",
+        about: "Kabbage is a fintech company that offers cash flow management solutions to small businesses.",
         responsibilities: [
-        "Front end web development utilizing React while increasing web traffic and customer engagement.",
-        "Technology consulting and search engine optimization to enhance online presence and increase sales."
+        "Creating elegant solutions in a rapid and agile development environment with continuous delivery.",
+        "Developing, designing, maintaining, and architecting Kabbage's Android app.",
+        "Working closely with product and design teams to customize the Kabbage experience for Android.",
+        "Leveraging the latest technologies from Google and staying up-to-date with Kotlin’s evolution."
         ]
       },
       {id: 2,
-        company: "Bhala - African Keyboard (Pro Bono)",
+        company: "Nitro Moving Company",
+        position: "Software Engineer, Generalist",
+        duration: "May 2021 – May 2022",
+        about: "Nitro Moving Company is a moving company based in San Bernardino, California. It is ranked as a top 3 moving company in San Bernardino on the Great Guys Moving Website.",
+        responsibilities: [
+          "Rebuilt and modernized company website leveraging Javascript, React, Bootstrap, and Material-UI.",
+          "Increased web traffic by 83% & customer engagement by 47% utilizing Google Analytics & search engine optimization."
+        ]
+      },
+      {id: 3,
+        company: "Bhala",
         position: "Software Engineer, Android",
         duration: "March 2021 – April 2021",
         about: "Bhala is an African startup featuring a multilingual keyboard that learns your writing style and makes writing in African languages faster by leveraging artificial intelligence designed for African languages.",
         responsibilities: [
-        "Migrating underlying legacy library to Kotlin to increase efficiency and compatibility.",
-        "Developing API and features for published, customer-facing android app utilizing Kotlin Firebase."
+          "Doubled number of downloads on Google Play Store by implementing a sticker clipboard feature and integrating the WhatsApp Stickers API.",
+          "Increased library compatibility and device performance by migrating codebase from Java to Kotlin."
         ]
       },
-      {id: 3,
-        company: "Wala Digital Health (Pro Bono)",
+      {id: 4,
+        company: "Wala Digital Health",
         position: "Software Engineer, Full Stack",
         duration: "October 2020 – February 2021",
         about: "Harvard and MIT alumni-founded startup featuring a SaaS Software connecting hospitals and donors for critical life-saving transfusions.",
@@ -146,8 +158,8 @@ export const experienceData = [
         "Software and system design, documentation, and integration."
         ]
       },
-      {id: 4,
-        company: "Bantucracy (Pro Bono)",
+      {id: 5,
+        company: "Bantucracy",
         position: "Software Engineer, Front End",
         duration: "August 2020 – November 2020",
         about: "Boston research-based tech & tech policy startup company with a strong focus on ubuntu ethics, technology and human rights.",
@@ -156,7 +168,7 @@ export const experienceData = [
         "Developed front-end components and assisted in back-end development of RESTful web service utilizing Bootstrap 4, React, Node.js, Express.js, MongoDB, Next.js, Material-UI, Strapi, and Docker."
         ]
       },
-      {id: 5,
+      {id: 6,
         company: "Lockheed Martin Aeronautics",
         position: "Software Engineer, Back End",
         duration: "July 2019 – August 2020",
