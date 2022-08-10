@@ -1,3 +1,5 @@
+
+
 import "./home.scss";
 import {
  Container, 
@@ -16,21 +18,9 @@ import { useEffect, useState ,useRef } from "react"
 import Resume from "../resume/Resume";
 import Experience from "../experience/Experience";
 import Projects from "../projects/Projects";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 
 
 export default function Home() {
-  const particlesInit = async (main) => {
-    console.log(main);
-
-    await loadFull(main);
-
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
 
   const textRef = useRef();
 
@@ -39,7 +29,7 @@ export default function Home() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:  60,
-      strings: ['Software Engineer','Front-end Developer','Back-end Developer','Mobile Developer'],
+      strings: ['Software Engineer','Back-end Developer', 'Front-end Developer'],
     })
   }, [])
  
@@ -61,86 +51,7 @@ export default function Home() {
   const handleShowResume = () => setShowResume(true);
 
  return (
-   <>
-    <Particles
-      style={{zIndex:'auto', position: 'absolute'}}
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-        background: {
-          color: {
-            value: "#ffffff",
-          },
-        },
-        fpsLimit: 120,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-            onHover: {
-              enable: true,
-              mode: "repulse",
-            },
-            resize: true,
-          },
-          modes: {
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#0d47a1",
-          },
-          links: {
-            color: "#ffffff",
-            distance: 150,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outModes: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 2,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: true,
-              area: 800,
-            },
-            value: 80,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            value: { min: 1, max: 5 },
-          },
-        },
-        detectRetina: true,
-      }}
-    />
-    <Container className="home content-container py-4" id="home" fluid="true">
+  <Container className="home content-container py-4" id="home" fluid="true">
     <FadeIn>
       <Container className="content-container py-4 px-4">
         <FadeIn>
@@ -157,7 +68,7 @@ export default function Home() {
               </p>
               <p className="text-center">
                 Vusumuzi is a software engineer, technology enthusiast, and is active in the technology startup community.
-                He is interested in consumer software, web services, and back end development opportunities.
+                He is interested in consumer software, web services, and mobile development opportunities.
               </p>
               <p className="text-center">
                 As an i3 Scholar at the iSchool Inclusion Institute (i3), he has published research in spatial information processing and cognitively salient wayfinding aids. 
@@ -221,32 +132,32 @@ export default function Home() {
         </Row>
         <Row className="text-center">
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="" onClick={handleShow}>
+            <p className="">
             <Code/> &nbsp; Full Stack Web Development
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="" onClick={handleShow}>
+            <p className="">
             <Computer/> &nbsp; C++ &amp; Java Development
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="" onClick={handleShow}>
+            <p className="">
             <PhoneIphone/> &nbsp; Mobile Development
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="" onClick={handleShow}>
+            <p className="">
             <CastForEducation/> &nbsp; Computer Science Tutoring
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="" onClick={handleShow}>
+            <p className="">
             <EmojiObjects/> &nbsp; Technology Consulting
             </p>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="" onClick={handleShow}>
+            <p className="">
             <Assignment/> &nbsp; Resume Review
             </p>
           </Col>
@@ -315,6 +226,5 @@ export default function Home() {
       </Container>
     </FadeIn>
    </Container>
-   </>
   )
 }
