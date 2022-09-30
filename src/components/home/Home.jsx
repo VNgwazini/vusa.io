@@ -29,7 +29,7 @@ export default function Home() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:  60,
-      strings: ['Software Engineer','Back-end Developer', 'Front-end Developer'],
+      strings: ['Software Engineer','Mobile Developer','Back-end Developer', 'Front-end Developer'],
     })
   }, [])
  
@@ -61,7 +61,7 @@ export default function Home() {
                 Vusumuzi Ngwazini
               </p>
               <p className="text-center type-effect text-muted">
-                Freelance <span className="typing" ref={textRef}></span>
+                Professional <span className="typing" ref={textRef}></span>
               </p>
               <p className="trusted-title text-center">
                 About Me
