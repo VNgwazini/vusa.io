@@ -68,19 +68,11 @@ export default function Home() {
                 About Me
               </p>
               <p className="text-center">
-                Vusumuzi is a software engineer, technology enthusiast, and is active in the technology startup community.
-                He is interested in consumer software, web services, and mobile development opportunities.
+                Vusumuzi is a software engineer, technology enthusiast, and is active in the financial technology community as an android developer. 
               </p>
               <p className="text-center">
-                As an i3 Scholar at the iSchool Inclusion Institute (i3), he has published research in spatial information processing and cognitively salient wayfinding aids. 
-                As a SULI selectee at the Department of Energy, he has researched the viability of neural networks in predicting the amplitude of aperiodic signals.
+                Currently he is a member of /dev/color, NSBE, and is an active supporter of increasing diversity in the tech industry.
               </p>
-              <p className="text-center">
-                He graduated with honors in 2019 from Oakwood University where he received a Bachelor’s in Computer Science.
-              </p>
-              {/* <p className="text-center">
-                These days he is a full-time iOS developer for iPhone and iPad devices.
-              </p> */}
               <p className="trusted-title text-center">
               Welcome, take a look around.
               </p>
@@ -93,6 +85,8 @@ export default function Home() {
               src="assets/headshot.jpg"
               alt="Headshot"
               className="img-thumbnail"
+              roundedCircle
+              width={360}
               />
             </Col>
           </Row>
