@@ -9,6 +9,7 @@ import {
  Offcanvas,
  Modal,
  ButtonGroup,
+ Image,
 } from 'react-bootstrap/'
 import { Assignment, CastForEducation, Code, Computer, EmojiObjects, PhoneIphone } from "@material-ui/icons";
 import FadeIn from 'react-fade-in';
@@ -56,7 +57,7 @@ export default function Home() {
       <Container className="content-container py-4 px-4">
         <FadeIn>
           <Row className="h-50">
-            <Col className="text-center" lg={6} md={6} sm={12}>
+            <Col className="text-center" lg={6} md={12} sm={12}>
               <p className="home-title text-center">
                 Vusumuzi Ngwazini
               </p>
@@ -87,9 +88,9 @@ export default function Home() {
               Let me know how I can serve you today!
               </p>
             </Col>
-            <Col className="d-flex justify-content-center" lg={6} md={6} sm={12}>
-              <img
-              src="assets/headshot.png"
+            <Col className="d-flex justify-content-center" lg={6} md={12} sm={12}>
+              <Image
+              src="assets/headshot.jpg"
               alt="Headshot"
               className="img-thumbnail"
               />
@@ -97,7 +98,7 @@ export default function Home() {
           </Row>
           <Row className="primary-buttons py-4">
             <Col className="">
-              <Button variant="primary" onClick={handleShow}>
+              <Button variant="dark" onClick={handleShow}>
                 Book an Appointment
               </Button>
               <Offcanvas show={show} onHide={handleClose}>
@@ -115,7 +116,7 @@ export default function Home() {
               </Offcanvas>
             </Col>
             <Col className="">
-              <Button variant="outline-primary" href="mailto:vusumuzi.ngwazini@gmail.com" target="_blank">
+              <Button variant="outline-dark" href="mailto:vusumuzi.ngwazini@gmail.com" target="_blank">
                 Contact Me Via Email
               </Button>
             </Col>
@@ -173,9 +174,9 @@ export default function Home() {
         </Row>
         <Row className="text-center">
         <ButtonGroup aria-label="Basic example" className="pb-4 mb-4">
-          <Button variant="primary" onClick={handleShowPortfolio}>View Portfolio</Button>
-          <Button variant="primary" onClick={handleShowExperience}>View Experience</Button>
-          <Button variant="primary" onClick={handleShowResume}>View Resume</Button>
+          <Button variant="dark" onClick={handleShowPortfolio}>View Portfolio</Button>
+          <Button variant="dark" onClick={handleShowExperience}>View Experience</Button>
+          <Button variant="dark" onClick={handleShowResume}>View Resume</Button>
         </ButtonGroup>
           <Col className="" sm={4} md={4} lg={4}>
             <Modal show={showPortfolio} onHide={handleClosePortfolio} size="lg">
@@ -186,7 +187,7 @@ export default function Home() {
                 <Projects/>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClosePortfolio}>
+                <Button variant="dark" onClick={handleClosePortfolio}>
                   Close
                 </Button>
               </Modal.Footer>
@@ -201,7 +202,7 @@ export default function Home() {
                 <Experience/>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleCloseExperience}>
+                <Button variant="dark" onClick={handleCloseExperience}>
                   Close
                 </Button>
               </Modal.Footer>
@@ -216,7 +217,7 @@ export default function Home() {
                 <Resume/>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleCloseResume}>
+                <Button variant="dark" onClick={handleCloseResume}>
                   Close
                 </Button>
               </Modal.Footer>

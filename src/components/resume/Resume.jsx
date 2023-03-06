@@ -18,8 +18,8 @@ const url = "https://drive.google.com/file/d/1eZC5iBPcJMZnxwZpxpSwhwhXVUwu-DoP/p
       </Row>
       <Row>
           <Col className="d-flex justify-content-center py-2">
-            <Button>
-              <a href="https://drive.google.com/uc?id=1eZC5iBPcJMZnxwZpxpSwhwhXVUwu-DoP&export=download" target="_blank" rel="noreferrer" class="btn">Download Resume</a>
+            <Button variant="dark">
+              <a href="https://drive.google.com/uc?id=1eZC5iBPcJMZnxwZpxpSwhwhXVUwu-DoP&export=download" target="_blank" rel="noreferrer">Download Resume</a>
             </Button>
           </Col>
         </Row>
