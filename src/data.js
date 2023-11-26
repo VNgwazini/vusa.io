@@ -115,14 +115,14 @@ export const experienceData = [
     category: "PROFESSIONAL EXPERIENCE",
     jobs: [
       {id: 1,
-        company: "American Express, Kabbage",
+        company: "American Express",
         position: "Software Engineer, Android",
         duration: "May 2022 – Currently",
-        about: "Kabbage is a fintech company that offers cash flow management solutions to small businesses.",
+        about: "American Express is an American bank holding company and multinational financial services corporation that specializes in payment cards.",
         responsibilities: [
         "Creating elegant solutions in a rapid and agile development environment with continuous delivery.",
-        "Developing, designing, maintaining, and architecting Kabbage's Android app.",
-        "Working closely with product and design teams to customize the Kabbage experience for Android.",
+        "Developing, designing, maintaining, and architecting American Express' Android app.",
+        "Working closely with product and design teams to customize the American Express experience for Android.",
         "Leveraging the latest technologies from Google and staying up-to-date with Kotlin’s evolution."
         ]
       },
