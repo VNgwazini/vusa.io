@@ -33,7 +33,7 @@ export default function ExperienceListItem({ experience }) {
                   </Card.Subtitle>
                   <Card.Text className="mb-2">
                     <details>
-                    <summary>More...</summary>
+                    <summary>Impact</summary>
                     <ul>
                       {Object.keys(experience.jobs[jobIndex].responsibilities).map((responibility, responsibiltyIndex) => (
                         <>
