@@ -58,7 +58,7 @@ export default function Home() {
         <FadeIn>
           <Row className="h-50">
             <Col className="text-center" lg={6} md={12} sm={12}>
-              <p className="home-title text-center">
+              <p className="home-title text-center pt-4">
                 Vusumuzi Ngwazini
               </p>
               <p className="text-center type-effect text-muted">
@@ -80,7 +80,7 @@ export default function Home() {
               Let me know how I can serve you today!
               </p>
             </Col>
-            <Col className="d-flex justify-content-center" lg={6} md={12} sm={12}>
+            <Col className="d-flex justify-content-center pt-4" lg={6} md={12} sm={12}>
               <Image
               src="assets/headshot.jpg"
               alt="Headshot"
