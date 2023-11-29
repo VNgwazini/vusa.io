@@ -25,7 +25,7 @@ export default function Resume() {
           </Col>
         </Row>
         <Row>
-          <Col className="d-flex justify-content-center py-2">
+          <Col className="d-flex justify-content-center pb-4">
             <Button variant="dark">
               <a href="https://drive.google.com/uc?id=1eZC5iBPcJMZnxwZpxpSwhwhXVUwu-DoP&export=download" target="_blank" rel="noreferrer">Download Resume</a>
             </Button>

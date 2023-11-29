@@ -26,9 +26,11 @@ export default function Experience() {
             </Col>
           </Row>
           <Row>
-            <Col className="d-flex justify-content-center">
+            <Col className="d-flex justify-content-center px-4">
               <p>
+                <center>
                 An in-depth breakdown of my <strong>professional and personal work.</strong>
+                </center>
               </p>
             </Col>
           </Row>
