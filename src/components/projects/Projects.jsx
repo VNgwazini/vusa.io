@@ -19,6 +19,7 @@ export default function Projects() {
 
   return (
     <>
+      <title>Projects</title>
       <Container className="projects content-container mt-4" id="projects" fluid="true">
         <FadeIn>
           <Row>
