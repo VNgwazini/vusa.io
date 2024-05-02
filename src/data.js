@@ -74,7 +74,7 @@ export const projectData = [
   {
     id: 6,
     title: "Nitro Moving Company",
-    link: "https://nitromoving.com/",
+    link: "https://nitromoving.us/",
     text: "A website for a local moving company with links for directions, social media, and booking appointments.",
     footer: "React · Web Development",
     imgSrc: "https://lh3.googleusercontent.com/p/AF1QipNzVunLTYR_R3EY-GVBN9AUHewv-3gtId7o2Oaf=s1280-p-no-v1",
